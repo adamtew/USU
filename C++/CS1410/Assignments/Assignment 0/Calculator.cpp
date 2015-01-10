@@ -48,7 +48,7 @@ char Calculator::menu()
 	cout << "\n\tQ: Quit\n";
 	cout << "\n\n\tEnter Decision: ";
 	cin >> c;
-	// printf("something %a\n","");
+
 	return c;
 }
 
@@ -56,13 +56,42 @@ void Calculator::choice()
 {
 	char c;
 
-	while(menu() != 'q')
+	while(c != 'q')
 	{
-		switch(menu())
+		c = menu();
+		switch(c)
 		{
-			case 'a':add(5);
+			case 'A':
+			case 'a':
+				cout << "\n\n\tAdd: ";
+				cin >> value;	
+				add(value);
 				break;
+			case 'S':
+			case 's':
+				cout << "\n\n\tSubtract: ";
+				cin >> value;
+				subtract(value);
+				break;
+			case 'M':
+			case 'm':
+				cout << "\n\n\tMultiply: ";
+				cin >> value;
+				multiply(value);
+				break;
+			case 'D':
+			case 'd':
+				cout << "\n\n\tDivide: ";
+				cin >> value;
+				divide(value);
+				break;	
+			case 't':
+				cout << "\n\n\tTotal: " << getTotal();
+				break;
+			case 'Q':
+			case 'q':
 			default :
+				c = 'q';
 				break;
 		}
 	}

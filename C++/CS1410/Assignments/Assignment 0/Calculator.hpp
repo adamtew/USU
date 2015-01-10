@@ -16,11 +16,11 @@ public:
 	double getTotal();
 	char menu();
 	void choice();
-
-	~Calculator()
-	{
-
-	}
+//
+//	~Calculator()
+//	{
+//
+//	}
 
 private:
 	double total, value;
