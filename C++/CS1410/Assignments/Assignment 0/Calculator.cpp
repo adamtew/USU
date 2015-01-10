@@ -90,8 +90,9 @@ void Calculator::choice()
 				break;
 			case 'Q':
 			case 'q':
+				break;
 			default :
-				c = 'q';
+				cout << "\n\n\t" << c << " Is not valid. Try again.";
 				break;
 		}
 	}
