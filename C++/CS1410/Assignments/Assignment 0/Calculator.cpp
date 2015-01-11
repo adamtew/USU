@@ -122,6 +122,7 @@ void Calculator::choice()
 				divide(m_value);
 				break;	
 			case 't':
+			case 'T':
 				cout << "\n\n\tTotal: " << getTotal();
 				cout << "\n\t" << m_s << " = " << m_total;
 				break;
