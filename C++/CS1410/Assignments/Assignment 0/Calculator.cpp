@@ -1,38 +1,74 @@
 #include "Calculator.hpp"
 #include <iostream>
 #include <stdio.h>
+#include <string>
+#include <sstream>
 
 using namespace std;
 
 Calculator::Calculator()
 {
-	total = 0;
+	m_total = 0;
 }
 
-void Calculator::add(double value)
+bool Calculator::firstVal()
 {
-	total += value;
+	if(m_total == 0)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
 
-void Calculator::subtract(double value)
+void Calculator::runningTotal(char rOperations, double rValue)
 {
-	total -= value;
+	m_leftParen << "(";
+	if(firstVal())
+	{
+		m_rt << " " << rOperations << " " << rValue;
+	}
+	else
+	{
+		m_rt << ") " << rOperations << " " << rValue;
+	}
+	m_s =  m_leftParen.str() + "(0.0" + m_rt.str() + ")";
 }
 
-void Calculator::multiply(double value)
+void Calculator::add(double rValue)
 {
-	total *= value;
+	m_operation = '+';
+	runningTotal(m_operation, rValue);
+	m_total += rValue;
+	
 }
 
-void Calculator::divide(double value)
+void Calculator::subtract(double rValue)
 {
-	//total /= value;
-	total = total / value;
+	m_operation = '-';
+	runningTotal(m_operation, rValue);
+	m_total -= rValue;
+}
+
+void Calculator::multiply(double rValue)
+{
+	m_operation = '*';
+	runningTotal(m_operation, rValue);
+	m_total *= rValue;
+}
+
+void Calculator::divide(double rValue)
+{
+	m_operation = '/';
+	runningTotal(m_operation, rValue);
+	m_total /= rValue;
 }
 
 double Calculator::getTotal()
 {
-	return total;
+	return m_total;
 }
 
 char Calculator::menu()
@@ -40,10 +76,10 @@ char Calculator::menu()
 	char c;
 
 	cout << "\n\t*** Calculator ***\n";
-	cout << "\n\tA: Add a value";
-	cout << "\n\tS: Subtract a value";
-	cout << "\n\tM: Multiple by a value";
-	cout << "\n\tD: Divide by a value";
+	cout << "\n\tA: Add a rValue";
+	cout << "\n\tS: Subtract a rValue";
+	cout << "\n\tM: Multiple by a rValue";
+	cout << "\n\tD: Divide by a rValue";
 	cout << "\n\tT: Get the total\n";
 	cout << "\n\tQ: Quit\n";
 	cout << "\n\n\tEnter Decision: ";
@@ -64,29 +100,30 @@ void Calculator::choice()
 			case 'A':
 			case 'a':
 				cout << "\n\n\tAdd: ";
-				cin >> value;	
-				add(value);
+				cin >> m_value;	
+				add(m_value);
 				break;
 			case 'S':
 			case 's':
 				cout << "\n\n\tSubtract: ";
-				cin >> value;
-				subtract(value);
+				cin >> m_value;
+				subtract(m_value);
 				break;
 			case 'M':
 			case 'm':
 				cout << "\n\n\tMultiply: ";
-				cin >> value;
-				multiply(value);
+				cin >> m_value;
+				multiply(m_value);
 				break;
 			case 'D':
 			case 'd':
 				cout << "\n\n\tDivide: ";
-				cin >> value;
-				divide(value);
+				cin >> m_value;
+				divide(m_value);
 				break;	
 			case 't':
 				cout << "\n\n\tTotal: " << getTotal();
+				cout << "\n\t" << m_s << " = " << m_total;
 				break;
 			case 'Q':
 			case 'q':

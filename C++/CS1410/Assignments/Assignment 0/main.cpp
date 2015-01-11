@@ -9,9 +9,10 @@ using namespace std;
 int main()
 {
 	Calculator a;
-	double x = 5;
 
 	a.choice();
+
+
 
 	return 0;
 }

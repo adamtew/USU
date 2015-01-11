@@ -2,6 +2,7 @@
 #define CALCULATOR_HPP
 
 #include <iostream>
+#include <sstream>
 
 using namespace std;
 
@@ -9,21 +10,26 @@ class Calculator{
 public:
 	Calculator();
 
-	void add(double value);
-	void subtract(double value);
-	void multiply(double value);
-	void divide(double value);
+	bool firstVal();
+	void runningTotal(char rOperation, double rValue);
+	void add(double rValue);
+	void subtract(double rValue);
+	void multiply(double rValue);
+	void divide(double rValue);
 	double getTotal();
 	char menu();
 	void choice();
-//
-//	~Calculator()
-//	{
-//
-//	}
+
+	~Calculator()
+	{
+
+	}
 
 private:
-	double total, value;
+	double m_total, m_value;
+	stringstream m_rt, m_leftParen;
+	string m_s;
+	char m_operation;
 
 };
 
