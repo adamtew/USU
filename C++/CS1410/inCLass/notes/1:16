@@ -20,3 +20,5 @@ Dynamic memory allocation
 	- Dynamic allocation using the new operator
 	int* pArrayPointer = new int[4];
 	- you then use the delete operator when you're done with the memory
+
+I like pointers
