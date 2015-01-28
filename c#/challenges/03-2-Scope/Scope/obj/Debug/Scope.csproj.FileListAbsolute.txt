@@ -1,0 +1,9 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_09\Scope\Scope\bin\Debug\Scope.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_09\Scope\Scope\bin\Debug\Scope.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_09\Scope\Scope\obj\Debug\Scope.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_09\Scope\Scope\obj\Debug\Scope.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\03\03-2-Scope\Scope\obj\Debug\Scope.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\03\03-2-Scope\Scope\obj\Debug\Scope.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\03\03-2-Scope\Scope\bin\Debug\Scope.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\03\03-2-Scope\Scope\bin\Debug\Scope.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\03\03-2-Scope\Scope\obj\Debug\Scope.csprojResolveAssemblyReference.cache

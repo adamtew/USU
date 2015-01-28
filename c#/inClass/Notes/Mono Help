@@ -1,0 +1,8 @@
+http://www.mono-project.com/docs/getting-started/mono-basics
+// Multiple Files
+http://stackoverflow.com/questions/1794127/how-do-i-compile-all-files-in-a-directory-with-mono
+
+gmcs -out:yourapp.exe -pkg:dotnet *.cs
+					or
+gmcs -out:yourapp.exe -pkg:dotnet35 *.cs
+gmcs -out:bob.exe *.cs

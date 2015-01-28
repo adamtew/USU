@@ -1,0 +1,23 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch04\fig04_15_16\Account\Account\bin\Debug\Account.exe.config
+C:\books\2012\VCSHARP2012HTP\examples\ch04\fig04_15_16\Account\Account\bin\Debug\Account.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch04\fig04_15_16\Account\Account\bin\Debug\Account.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch04\fig04_15_16\Account\Account\obj\Debug\Account.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch04\fig04_15_16\Account\Account\obj\Debug\Account.pdb
+C:\Users\Laleh\Google Drive\CS 3420 - C#\CS 3420 - C# programming\AllSamplecodes\ch04\ch04\fig04_15_16\Account\Account\bin\Debug\Account.exe.config
+C:\Users\Laleh\Google Drive\CS 3420 - C#\CS 3420 - C# programming\AllSamplecodes\ch04\ch04\fig04_15_16\Account\Account\obj\Debug\Account.exe
+C:\Users\Laleh\Google Drive\CS 3420 - C#\CS 3420 - C# programming\AllSamplecodes\ch04\ch04\fig04_15_16\Account\Account\obj\Debug\Account.pdb
+C:\Users\Laleh\Google Drive\CS 3420 - C#\CS 3420 - C# programming\#1\2-Account\Account\bin\Debug\Account.exe.config
+C:\Users\Laleh\Google Drive\CS 3420 - C#\CS 3420 - C# programming\#1\2-Account\Account\obj\Debug\Account.exe
+C:\Users\Laleh\Google Drive\CS 3420 - C#\CS 3420 - C# programming\#1\2-Account\Account\obj\Debug\Account.pdb
+C:\Users\Laleh\Google Drive\CS 3420 - C#\CS 3420 - C# programming\#1\2-Account\Account\bin\Debug\Account.exe
+C:\Users\Laleh\Google Drive\CS 3420 - C#\CS 3420 - C# programming\#1\2-Account\Account\bin\Debug\Account.pdb
+C:\Users\Laleh\Google Drive\CS 3420 - C#\CS 3420 - C# programming\#1\2-Account\Account\obj\Debug\Account.csprojResolveAssemblyReference.cache
+F:\CS 3420 - C#\CS 3420 - C# programming\#1\2-Account\Account\bin\Debug\Account.exe.config
+F:\CS 3420 - C#\CS 3420 - C# programming\#1\2-Account\Account\obj\Debug\Account.exe
+F:\CS 3420 - C#\CS 3420 - C# programming\#1\2-Account\Account\obj\Debug\Account.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\02\01-3-Account\Account\bin\Debug\Account.exe.config
+C:\Users\Laleh\Documents\cs2412\Lectures\02\01-3-Account\Account\obj\Debug\Account.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\02\01-3-Account\Account\obj\Debug\Account.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\02\02-2-Account\Account\bin\Debug\Account.exe.config
+C:\Users\Laleh\Documents\cs2412\Lectures\02\02-2-Account\Account\obj\Debug\Account.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\02\02-2-Account\Account\obj\Debug\Account.pdb

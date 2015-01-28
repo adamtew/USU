@@ -1,0 +1,7 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_12\CalculatePowers\CalculatePowers\bin\Debug\CalculatePowers.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_12\CalculatePowers\CalculatePowers\bin\Debug\CalculatePowers.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_12\CalculatePowers\CalculatePowers\obj\x86\Debug\CalculatePowers.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_12\CalculatePowers\CalculatePowers\obj\x86\Debug\CalculatePowers.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_12\CalculatePowers\CalculatePowers\obj\x86\Debug\CalculatePowers.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\03\03-4-CalculatePowers\CalculatePowers\obj\x86\Debug\CalculatePowers.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\03\03-4-CalculatePowers\CalculatePowers\obj\x86\Debug\CalculatePowers.pdb
