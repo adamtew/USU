@@ -1,0 +1,27 @@
+Pointers
+
+Memory - hex
+	- format is 0x
+	- base 16
+	- 0-9 a-f
+	- example
+		- 0xF = 15
+		- 0x0 = 0
+		- 0xFF = 255
+
+Memory - structure
+	- like an array
+	- the address can be accessed using the '&' symbol
+
+Memory - Size
+	- always points to the first place on memory, regardless of the size.
+	- Size depends on operating system
+
+Pointer - Variables
+	- syntax = int* pointer 
+	- int* = pointer value
+	- *pointer makes pointer become a pointer value
+	- arrays and pointers are very similar execpt they start out initialized
+
+Pointer - arithmetic
+	
