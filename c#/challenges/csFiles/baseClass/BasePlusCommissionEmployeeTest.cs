@@ -1,6 +1,9 @@
-﻿// Fig. 11.11: BasePlusCommissionEmployeeTest.cs
+// Fig. 11.11: BasePlusCommissionEmployeeTest.cs
 // Testing class BasePlusCommissionEmployee.
 using System;
+
+namespace BasePlusCommissionEmployee
+{
 
 public class BasePlusCommissionEmployeeTest
 {
@@ -38,3 +41,5 @@ public class BasePlusCommissionEmployeeTest
          basePlusCommissionEmployee.Earnings() );
    } 
 } 
+
+}

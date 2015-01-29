@@ -18,9 +18,12 @@ public:
 	Myclass()
 	: m_value(0)
 	{
-		
+
 	}
-	~Myclass();
+	~Myclass()
+	{
+		// empty
+	}
 
 	void doSomething();
 	void doSomething(int* array);
