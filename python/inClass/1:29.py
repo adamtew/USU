@@ -49,7 +49,7 @@
 
 # print ht01
 
-# Decoding huggman trees
+# Decoding huffman trees
 
 # Set-former notation
 # {4 * x | x E N, x^2 < 100}

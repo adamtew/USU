@@ -52,7 +52,7 @@ print range(5,10)
 print range(1, -9, -3)
 
 # Range uses a lot of memory, so you sometimes want to use xrange, because it takes less memory
-rng = xrange(0, 1000)
+rng = xrange(0, 10)
 
 for x in rng:
 	print x
