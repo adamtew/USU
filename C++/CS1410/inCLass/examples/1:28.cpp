@@ -10,6 +10,12 @@
 // strlen <-- get length of a c string, include <string.h
 // strcpy <-- copy a string from one var to another
 // strncpy <-- it's like string copy but it can't be buffer overflow attacked as easily
+// strcat <-- concatenate strings
+// strcmp <--- string compare where you compare two strings
+// strncmp <-- same as strcmp and except a little bit safer
+// strstr <--- it's a find inside of a string
+
+// atoi, atol, atof, itoa <---
 
 #include <iostream>
 #include <stdio.h>
