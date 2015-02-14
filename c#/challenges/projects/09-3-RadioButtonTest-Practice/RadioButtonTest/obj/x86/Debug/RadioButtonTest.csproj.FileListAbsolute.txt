@@ -1,0 +1,27 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\bin\Debug\RadioButtonTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\bin\Debug\RadioButtonTest.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.RadioButtonTestForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.pdb
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.exe
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.pdb
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest - Copy\RadioButtonTest\obj\x86\Debug\RadioButtonTest.exe
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest - Copy\RadioButtonTest\obj\x86\Debug\RadioButtonTest.pdb
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest - Copy\RadioButtonTest\bin\Debug\RadioButtonTest.exe
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest - Copy\RadioButtonTest\bin\Debug\RadioButtonTest.pdb
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest - Copy\RadioButtonTest\obj\x86\Debug\RadioButtonTest.csprojResolveAssemblyReference.cache
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest - Copy\RadioButtonTest\obj\x86\Debug\RadioButtonTest.RadioButtonTestForm.resources
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest - Copy\RadioButtonTest\obj\x86\Debug\RadioButtonTest.Properties.Resources.resources
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\RadioButtonTest - Copy\RadioButtonTest\obj\x86\Debug\RadioButtonTest.csproj.GenerateResource.Cache
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\13_2_RadioButtonTest_I\RadioButtonTest\obj\x86\Debug\RadioButtonTest.exe
+F:\CS 3420 - C#\CS 3420 - C# programming\#13\13_2_RadioButtonTest_I\RadioButtonTest\obj\x86\Debug\RadioButtonTest.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\09\09-3-RadioButtonTest-Practice\RadioButtonTest\obj\x86\Debug\RadioButtonTest.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\09\09-3-RadioButtonTest-Practice\RadioButtonTest\obj\x86\Debug\RadioButtonTest.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\09\09-3-RadioButtonTest-Practice\RadioButtonTest\bin\Debug\RadioButtonTest.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\09\09-3-RadioButtonTest-Practice\RadioButtonTest\bin\Debug\RadioButtonTest.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\09\09-3-RadioButtonTest-Practice\RadioButtonTest\obj\x86\Debug\RadioButtonTest.csprojResolveAssemblyReference.cache
+C:\Users\Laleh\Documents\cs2412\Lectures\09\09-3-RadioButtonTest-Practice\RadioButtonTest\obj\x86\Debug\RadioButtonTest.RadioButtonTestForm.resources
+C:\Users\Laleh\Documents\cs2412\Lectures\09\09-3-RadioButtonTest-Practice\RadioButtonTest\obj\x86\Debug\RadioButtonTest.Properties.Resources.resources
+C:\Users\Laleh\Documents\cs2412\Lectures\09\09-3-RadioButtonTest-Practice\RadioButtonTest\obj\x86\Debug\RadioButtonTest.csproj.GenerateResource.Cache

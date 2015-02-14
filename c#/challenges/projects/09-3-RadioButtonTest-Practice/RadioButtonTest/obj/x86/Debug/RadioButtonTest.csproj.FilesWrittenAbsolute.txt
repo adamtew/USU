@@ -1,0 +1,2 @@
+/Users/mishelaeward/git/school/c#/challenges/projects/09-3-RadioButtonTest-Practice/RadioButtonTest/obj/x86/Debug/.NETFramework,Version=v4.0,Profile=Client.AssemblyAttribute.cs
+/Users/mishelaeward/git/school/c#/challenges/projects/09-3-RadioButtonTest-Practice/RadioButtonTest/obj/x86/Debug/RadioButtonTest.exe
