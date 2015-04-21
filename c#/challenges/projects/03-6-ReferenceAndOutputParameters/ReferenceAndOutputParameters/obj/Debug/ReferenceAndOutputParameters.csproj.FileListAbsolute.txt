@@ -1,4 +1,0 @@
-C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_15\ReferenceAndOutputParameters\ReferenceAndOutputParameters\bin\Debug\ReferenceAndOutputParameters.exe
-C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_15\ReferenceAndOutputParameters\ReferenceAndOutputParameters\bin\Debug\ReferenceAndOutputParameters.pdb
-C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_15\ReferenceAndOutputParameters\ReferenceAndOutputParameters\obj\Debug\ReferenceAndOutputParameters.exe
-C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_15\ReferenceAndOutputParameters\ReferenceAndOutputParameters\obj\Debug\ReferenceAndOutputParameters.pdb

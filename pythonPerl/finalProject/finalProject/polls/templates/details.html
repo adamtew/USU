@@ -1,0 +1,59 @@
+{% include "head.html" %}
+{% load staticfiles %}
+
+<!-- Titlebar
+================================================== -->
+
+<div class="container">
+
+<!-- Slider
+================================================== -->
+	<div class="eight columns" >
+		<div class="slider-padding">
+			<div id="product-slider-vertical" class="royalSlider rsDefault">
+			    <a href="images/product_item_04a-big.jpg" class="mfp-gallery" title="First Title"><img class="rsImg" src="{% static '' %}{{ item.picture }}.jpg" data-rsTmb="{% static '' %}{{ item.picture }}.jpg" alt="" /></a>
+			 </div>
+			 <div class="clearfix"></div>
+		</div>
+	</div>
+
+
+<!-- Content
+================================================== -->
+	<div class="eight columns">
+		<div class="product-page">
+			<h3>{{ request.session.cart }}</h3>
+			<!-- Headline -->
+			<section class="title">
+				<h2>{{ item }}</h2>
+				<span class="product-price">${{ item.price }}.00</span>
+			</section>
+
+			<!-- Text Parapgraph -->
+			<section>
+				<p class="margin-reset">{{ item.description }}</p>
+								
+			</section>
+
+
+			<section class="linking">
+
+					<form action='#'>
+						<div class="qtyminus"></div>
+						<input type='text' name="quantity" value='1' class="qty" />
+						<div class="qtyplus"></div>
+					</form>
+
+					<a href="#" class="button adc">Add to Cart</a>
+					<div class="clearfix"></div>
+
+			</section>
+
+		</div>
+	</div>
+
+</div>
+
+<div class="margin-top-50"></div>
+
+{% include "foot.html" %}

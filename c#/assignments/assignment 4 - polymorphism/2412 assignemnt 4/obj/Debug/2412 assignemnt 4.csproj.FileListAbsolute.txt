@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\2412 assignemnt 4\2412 assignemnt 4\bin\Debug\2412 assignemnt 4.exe.config
+c:\users\user\documents\visual studio 2013\Projects\2412 assignemnt 4\2412 assignemnt 4\bin\Debug\2412 assignemnt 4.exe
+c:\users\user\documents\visual studio 2013\Projects\2412 assignemnt 4\2412 assignemnt 4\bin\Debug\2412 assignemnt 4.pdb
+c:\users\user\documents\visual studio 2013\Projects\2412 assignemnt 4\2412 assignemnt 4\obj\Debug\2412 assignemnt 4.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\2412 assignemnt 4\2412 assignemnt 4\obj\Debug\2412 assignemnt 4.exe
+c:\users\user\documents\visual studio 2013\Projects\2412 assignemnt 4\2412 assignemnt 4\obj\Debug\2412 assignemnt 4.pdb

@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2013\Projects\2412assignment8\2412assignment8\bin\Debug\2412assignment8.exe.config
+c:\users\user\documents\visual studio 2013\Projects\2412assignment8\2412assignment8\bin\Debug\2412assignment8.exe
+c:\users\user\documents\visual studio 2013\Projects\2412assignment8\2412assignment8\bin\Debug\2412assignment8.pdb
+c:\users\user\documents\visual studio 2013\Projects\2412assignment8\2412assignment8\obj\Debug\2412assignment8.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\2412assignment8\2412assignment8\obj\Debug\_2412assignment8.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\2412assignment8\2412assignment8\obj\Debug\_2412assignment8.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\2412assignment8\2412assignment8\obj\Debug\2412assignment8.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\2412assignment8\2412assignment8\obj\Debug\2412assignment8.exe
+c:\users\user\documents\visual studio 2013\Projects\2412assignment8\2412assignment8\obj\Debug\2412assignment8.pdb

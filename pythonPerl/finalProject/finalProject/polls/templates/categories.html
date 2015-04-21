@@ -1,0 +1,78 @@
+{% include "head.html" %}
+{% load staticfiles %}
+
+<div class="container">
+
+<!-- Sidebar
+================================================== -->
+	<div class="four columns">
+
+		<!-- Categories -->
+		<div class="widget margin-top-0">
+			<h3 class="headline">Cats</h3><span class="line"></span><div class="clearfix"></div>
+			<ul id="categories">
+				{% for i in pageVars %}
+
+					<li><a href="#">{{ i.Category }}</a>
+						<ul>
+						{% for j in i.Items %}
+						<li><a href="#">{{ j }}</a></li>
+						{% endfor %}
+						</ul>
+					</li>
+
+				{% endfor %}
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+
+	<!-- Content
+	================================================== -->
+	<div class="twelve columns">
+
+	</div>
+
+	<!-- Products -->
+	<div class="twelve columns products">
+
+
+		<!-- Product #1 -->
+		{% for c in pageVars %}
+			{% for item in c.Items %}
+				<div class="four shop columns">
+					<figure class="product">
+						<div class="mediaholder">
+							<a href="{% url 'polls:details' %}/{{ item.id }}">
+								<img alt="" src="{% static '' %}{{ item.picture}}.jpg"/>
+								<div class="cover">
+									<img alt="" src="{% static '' %}{{ item.picture}}1.jpg"/>
+								</div>
+							</a>
+
+							<a href="{% url 'polls:details' %}/{{ item.id }}?purchase=True" class="product-button"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+						</div>
+
+						<a href="{% url 'polls:details' %}/{{ item.id }}">
+							<section>
+								<span class="product-category">{{ c.Category }}</span>
+								<h5>{{ item }}</h5>
+								<span class="product-price">${{ item.price }}.00</span>
+							</section>
+						</a>
+					</figure>
+				</div>
+			{% endfor %}
+		{% endfor %}
+				
+		<div class="clearfix"></div>
+
+	</div>
+
+</div>
+
+<div class="margin-top-15"></div>
+
+
+{% include "foot.html" %}

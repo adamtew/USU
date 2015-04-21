@@ -1,0 +1,11 @@
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\bin\Debug\cs2412hw7.exe.config
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\bin\Debug\cs2412hw7.exe
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\bin\Debug\cs2412hw7.pdb
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\obj\Debug\cs2412hw7.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\obj\Debug\cs2412hw7.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\obj\Debug\cs2412hw7.loginForm.resources
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\obj\Debug\cs2412hw7.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\obj\Debug\cs2412hw7.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\obj\Debug\cs2412hw7.exe
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\obj\Debug\cs2412hw7.pdb
+c:\users\user\documents\visual studio 2013\Projects\cs2412hw7\cs2412hw7\obj\Debug\cs2412hw7.billCalculator.resources

@@ -1,4 +1,0 @@
-C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_14\FactorialTest\FactorialTest\bin\Debug\FactorialTest.exe
-C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_14\FactorialTest\FactorialTest\bin\Debug\FactorialTest.pdb
-C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_14\FactorialTest\FactorialTest\obj\Debug\FactorialTest.exe
-C:\books\2012\VCSHARP2012HTP\examples\ch07\fig07_14\FactorialTest\FactorialTest\obj\Debug\FactorialTest.pdb

@@ -1,0 +1,12 @@
+c:\users\user\documents\visual studio 2013\Projects\2412_assignment5\2412_assignment5\bin\Debug\2412_assignment5.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\2412_assignment5\2412_assignment5\obj\Debug\2412_assignment5.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\2412_assignment5\2412_assignment5\obj\Debug\_2412_assignment5.Form1.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\2412_assignment5\2412_assignment5\obj\Debug\_2412_assignment5.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\2412_assignment5\2412_assignment5\obj\Debug\2412_assignment5.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\2412_assignment5\2412_assignment5\bin\Debug\2412_assignment5.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\2412_assignment5\2412_assignment5\bin\Debug\2412_assignment5.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\2412_assignment5\2412_assignment5\obj\Debug\2412_assignment5.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\2412_assignment5\2412_assignment5\obj\Debug\2412_assignment5.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\cs2412\2412_assignment5\2412_assignment5\bin\Debug\2412_assignment5.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\cs2412\2412_assignment5\2412_assignment5\obj\Debug\2412_assignment5.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\cs2412\2412_assignment5\2412_assignment5\obj\Debug\2412_assignment5.pdb

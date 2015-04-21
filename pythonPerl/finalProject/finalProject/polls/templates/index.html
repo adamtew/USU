@@ -1,0 +1,192 @@
+<!-- {% if latest_question_list %} -->
+	<!-- <ul> -->
+	<!-- {% for question in latest_question_list %} -->
+		<!-- <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li> -->
+	<!-- {% endfor %} -->
+	<!-- </ul> -->
+<!-- {% else %} -->
+	<!-- <p>No polls are available.</p> -->
+<!-- {% endif %} -->
+{% include "head.html" %}
+{% load staticfiles %}
+
+<!-- Titlebar
+================================================== -->
+<section class="titlebar">
+<div class="container">
+	<div class="sixteen columns">
+		<h2>Our Services</h2>
+		
+		<nav id="breadcrumbs">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li>Our Services</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+</section>
+
+
+<!-- Content
+================================================== -->
+
+<!-- Container -->
+<div class="container">
+	<div class="sixteen columns">
+		<div id="basic-slider" class="royalSlider rsDefault">
+			<a href="#"><img class="rsImg" src="{% static 'polls/images/service.jpg' %}" alt="" /><span class="royal-caption">The New Way To Success</span></a>
+		</div>
+	</div>
+</div>
+<!-- Container / End -->
+
+
+<!-- Container -->
+<div class="container margin-top-45">
+
+	<div class="one-third column">
+
+		<!-- Service -->
+		<div class="icon-box">
+			<span><i class="fa fa-pencil"></i></span>
+			<div class="icon-description">
+				<h3>Illustration</h3>
+				<p>Nam condimentum nec mi aliquam accumsan phasellus nulla lorem gravida.</p>
+				<a href="#">More Info</a>
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<!-- Service -->
+		<div class="icon-box margin-top-30">
+			<span><i class="fa fa-cogs"></i></span>
+			<div class="icon-description">
+				<h3>Development</h3>
+				<p>Suspendisse sollicitudin diam eu leo rhoncus pharetra praesent turpis eget metus.</p>
+				<a href="#">More Info</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="one-third column">
+
+		<!-- Service -->
+		<div class="icon-box">
+			<span><i class="fa fa-lightbulb-o"></i></span>
+			<div class="icon-description">
+				<h3>User Experience</h3>
+				<p>Morbi vitae augue vel nulla pharetra laoreet lorem vitae elit integer tortor justo.</p>
+				<a href="#">More Info</a>
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<!-- Service -->
+		<div class="icon-box margin-top-30">
+			<span><i class="fa  fa-hdd-o"></i></span>
+			<div class="icon-description">
+				<h3>VPS Server</h3>
+				<p>Maecenas consequat pharetra neque duis fringilla nibh justo pharetra imperdiet.</p>
+				<a href="#">More Info</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="one-third column">
+			<!-- Accordion -->
+			<div class="accordion">
+
+				<!-- Section 1 -->
+				<h3><span class="ui-accordion-header-icon ui-icon ui-accordion-icon"></span><i class="fa fa-life-saver"></i> Accordion #1</h3>
+				<div>
+					<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate aliquam egestas litora torquent conubia.</p>
+				</div>
+
+				<!-- Section 2 -->
+				<h3><span class="ui-accordion-header-icon ui-icon ui-accordion-icon"></span><i class="fa fa-user"></i> Accordion #2</h3>
+				<div>
+					<p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo.</p>
+				</div>
+
+				<!-- Section 3 -->
+				<h3><span class="ui-accordion-header-icon ui-icon ui-accordion-icon"></span><i class="fa fa-trophy"></i> Accordion #3</h3>
+				<div>
+					<p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper.</p>
+				</div>
+
+			</div>
+			<!-- Accordion / End -->
+	</div>
+
+</div>
+<!-- Container / End -->
+
+
+<!-- Container -->
+<div class="container margin-top-35">
+	<div class="sixteen columns">
+
+		<div class="info-banner">
+			<div class="info-content">
+				<h3>Perfect Template for Showing Your Products</h3>
+				<p>Trizzy is a premium template created for ecommerce and business websites</p>
+			</div>
+			<a href="#" class="button color">Get This Theme</a>
+			<div class="clearfix"></div>
+		</div>
+
+	</div>
+</div>
+<!-- Container / End -->
+
+
+<!-- Container -->
+<div class="container margin-top-40">
+
+	<!-- Headline -->
+	<div class="sixteen columns">
+		<h3 class="headline">Our Clients</h3>
+		<span class="line margin-bottom-0"></span>
+	</div>
+
+	<!-- Navigation / Left -->
+	<div class="one carousel column"><div id="showbiz_left_2" class="sb-navigation-left-2"><i class="fa fa-angle-left"></i></div></div>
+
+	<!-- ShowBiz Carousel -->
+	<div id="our-clients" class="showbiz-container fourteen carousel columns" >
+
+	<!-- Portfolio Entries -->
+	<div class="showbiz our-clients" data-left="#showbiz_left_2" data-right="#showbiz_right_2">
+		<div class="overflowholder">
+
+			<ul>
+				<!-- Item -->
+				<li><img src="{% static 'polls/images/logo-01.png' %}" alt="" /></li>
+				<li><img src="{% static 'polls/images/logo-02.png' %}" alt="" /></li>
+				<li><img src="{% static 'polls/images/logo-03.png' %}" alt="" /></li>
+				<li><img src="{% static 'polls/images/logo-04.png' %}" alt="" /></li>
+				<li><img src="{% static 'polls/images/logo-05.png' %}" alt="" /></li>
+				<li><img src="{% static 'polls/images/logo-06.png' %}" alt="" /></li>
+				<li><img src="{% static 'polls/images/logo-07.png' %}" alt="" /></li>
+			</ul>
+			<div class="clearfix"></div>
+
+		</div>
+		<div class="clearfix"></div>
+
+	</div>
+	</div>
+
+	<!-- Navigation / Right -->
+	<div class="one carousel column"><div id="showbiz_right_2" class="sb-navigation-right-2"><i class="fa fa-angle-right"></i></div></div>
+
+</div>
+<!-- Container / End -->
+
+
+{% include "foot.html" %}

@@ -1,9 +1,0 @@
-C:\books\2012\VCSHARP2012HTP\examples\ch10\fig10_01_02\Time1\Time1\bin\Debug\Time1.exe
-C:\books\2012\VCSHARP2012HTP\examples\ch10\fig10_01_02\Time1\Time1\bin\Debug\Time1.pdb
-C:\books\2012\VCSHARP2012HTP\examples\ch10\fig10_01_02\Time1\Time1\obj\Debug\Time1.exe
-C:\books\2012\VCSHARP2012HTP\examples\ch10\fig10_01_02\Time1\Time1\obj\Debug\Time1.pdb
-C:\Users\Laleh\Documents\cs2412\Lectures\05\05-1-Time1\Time1\obj\Debug\Time1.exe
-C:\Users\Laleh\Documents\cs2412\Lectures\05\05-1-Time1\Time1\obj\Debug\Time1.pdb
-C:\Users\Laleh\Documents\cs2412\Lectures\05\05-1-Time1\Time1\bin\Debug\Time1.exe
-C:\Users\Laleh\Documents\cs2412\Lectures\05\05-1-Time1\Time1\bin\Debug\Time1.pdb
-C:\Users\Laleh\Documents\cs2412\Lectures\05\05-1-Time1\Time1\obj\Debug\Time1.csprojResolveAssemblyReference.cache

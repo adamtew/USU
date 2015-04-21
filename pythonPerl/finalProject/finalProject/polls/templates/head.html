@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>Trizzy</title>
+
+<!-- Mobile Specific Metas
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/css/style.css' %}">
+<link rel="stylesheet" href="{% static 'polls/css/colors/green.css' %}" id="colors">
+
+ 
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body class="boxed">
+<div id="wrapper">
+
+
+<!-- Top Bar
+================================================== -->
+<div id="top-bar">
+	<div class="container">
+
+		<!-- Top Bar Menu -->
+		<div class="ten columns">
+			<ul class="top-bar-menu">
+				<li><i class="fa fa-phone"></i> (564) 123 4567</li>
+				<li><i class="fa fa-envelope"></i> <a href="#">mail@example.com</a></li>
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<!-- Header
+================================================== -->
+<div class="container">
+
+	<!-- Logo -->
+	<div class="four columns">
+			<div id="logo">
+				<h1><a href="index.html"><img src="{% static 'polls/images/logo.png' %}" alt="Trizzy" /></a></h1>
+			</div>
+	</div>
+	
+
+	<!-- Additional Menu -->
+	<div class="twelve columns">
+		<div id="additional-menu">
+			<ul>
+				<li><a href="shopping-cart.html">Shopping Cart</a></li>
+				<li><a href="wishlist.html">WishList <span>(2)</span></a></li>
+				<li><a href="checkout-billing-details.html">Checkout</a></li>
+				<li><a href="my-account.html">My Account</a></li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<!-- Shopping Cart -->
+	<div class="twelve columns">
+
+		<div id="cart">
+				
+			<!-- Button -->
+			<div class="cart-btn">
+				<a href="#" class="button adc">$178.00</a>
+			</div>
+
+			<div class="cart-list">
+
+			<div class="arrow"></div>
+
+				<div class="cart-amount">
+					<span>items in the shopping cart</span>
+				</div>
+
+					<ul>
+					{% for item in request.session.cart %}
+						<li>
+							<a href="#"><img src="{% static '' %}{{ item.picture }}.jpg" alt="" /></a>
+							<a href="#">{{ item.description }} <br /> Cat</a>
+							<span>${{ item.price }}.00</span>
+							<div class="clearfix"></div>
+						</li>
+						{% endfor %}
+					</ul>
+
+				<div class="cart-buttons button">
+					<a href="shopping-cart.html" class="view-cart" ><span data-hover="View Cart"><span>View Cart</span></span></a>
+					<a href="checkout-billing-details.html" class="checkout"><span data-hover="Checkout">Checkout</span></a>
+				</div>
+				<div class="clearfix">
+
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Search -->
+		<nav class="top-search">
+			<form action="#" method="get">
+				<button><i class="fa fa-search"></i></button>
+				<input class="search-field" type="text" placeholder="Search" value=""/>
+			</form>
+		</nav>
+
+	</div>
+
+</div>
+
+
+<!-- Navigation
+================================================== -->
+<div class="container">
+	<div class="sixteen columns">
+
+		<a href="#menu" class="menu-trigger"><i class="fa fa-bars"></i> Menu</a>
+
+		<nav id="navigation">
+			<ul class="menu" id="responsive">
+				<li><a href="{% url 'polls:home' %}"><i class="fa fa-home"></i></a></li>
+				<li><a href="{% url 'polls:about' %}">about</a></li>
+				<li><a href="{% url 'polls:contact' %}">contact</a></li>
+				<li><a href="{% url 'polls:categories' %}">categories</a></li>
+				<li><a href="{% url 'polls:details' %}/3">detail</a></li>
+				<li><a href="{% url 'polls:login' %}">login</a></li>
+				<li><a href="{% url 'polls:checkout' %}">checkout</a></li>
+			</ul>
+		</nav>							
+	</div>
+</div>
+
+
+
+

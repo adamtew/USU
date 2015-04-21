@@ -1,6 +1,0 @@
-C:\books\2012\VCSHARP2012HTP\examples\ch11\Fig11_04_05\CommissionEmployee\CommissionEmployee\bin\Debug\CommissionEmployee.exe
-C:\books\2012\VCSHARP2012HTP\examples\ch11\Fig11_04_05\CommissionEmployee\CommissionEmployee\bin\Debug\CommissionEmployee.pdb
-C:\books\2012\VCSHARP2012HTP\examples\ch11\Fig11_04_05\CommissionEmployee\CommissionEmployee\obj\Debug\CommissionEmployee.exe
-C:\books\2012\VCSHARP2012HTP\examples\ch11\Fig11_04_05\CommissionEmployee\CommissionEmployee\obj\Debug\CommissionEmployee.pdb
-C:\Users\Laleh\Documents\cs2412\Lectures\05\05-4-CommissionEmployee\CommissionEmployee\obj\Debug\CommissionEmployee.exe
-C:\Users\Laleh\Documents\cs2412\Lectures\05\05-4-CommissionEmployee\CommissionEmployee\obj\Debug\CommissionEmployee.pdb
