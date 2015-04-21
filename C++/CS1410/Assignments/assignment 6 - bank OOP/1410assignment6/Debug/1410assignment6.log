@@ -1,0 +1,23 @@
+﻿Build started 3/17/2015 11:48:48 PM.
+     1>Project "C:\Users\User\Documents\Visual Studio 2013\Projects\1410assignment6\1410assignment6\1410assignment6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Adam\Computer Stuff\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\1410assignment6\1410assignment6\savings.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\user\documents\visual studio 2013\projects\1410assignment6\1410assignment6\checking.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\user\documents\visual studio 2013\projects\1410assignment6\1410assignment6\main.cpp(160): warning C4101: 'fee' : unreferenced local variable
+     1>c:\users\user\documents\visual studio 2013\projects\1410assignment6\1410assignment6\main.cpp(159): warning C4101: 'balance' : unreferenced local variable
+     1>c:\users\user\documents\visual studio 2013\projects\1410assignment6\1410assignment6\main.cpp(157): warning C4101: 'accounNumber' : unreferenced local variable
+       Link:
+         E:\Adam\Computer Stuff\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Visual Studio 2013\Projects\1410assignment6\Debug\1410assignment6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\Visual Studio 2013\Projects\1410assignment6\Debug\1410assignment6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Visual Studio 2013\Projects\1410assignment6\Debug\1410assignment6.lib" /MACHINE:X86 Debug\Account.obj
+         Debug\Bank.obj
+         Debug\Checking.obj
+         Debug\main.obj
+         Debug\newMain.obj
+         Debug\Savings.obj
+         1410assignment6.vcxproj -> C:\Users\User\Documents\Visual Studio 2013\Projects\1410assignment6\Debug\1410assignment6.exe
+     1>Done Building Project "C:\Users\User\Documents\Visual Studio 2013\Projects\1410assignment6\1410assignment6\1410assignment6.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.94
