@@ -1,0 +1,2 @@
+Utah State CS Core
+======
