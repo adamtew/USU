@@ -18,6 +18,8 @@ class CategoryAdmin(admin.ModelAdmin):
 	model = Category
 admin.site.register(Category, CategoryAdmin)
 
+# admin.site.register(UserProfile)
+
 
 
 

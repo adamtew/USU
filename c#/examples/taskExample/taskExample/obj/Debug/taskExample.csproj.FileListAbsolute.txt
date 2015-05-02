@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\taskExample\taskExample\bin\Debug\taskExample.exe.config
+c:\users\user\documents\visual studio 2013\Projects\taskExample\taskExample\bin\Debug\taskExample.exe
+c:\users\user\documents\visual studio 2013\Projects\taskExample\taskExample\bin\Debug\taskExample.pdb
+c:\users\user\documents\visual studio 2013\Projects\taskExample\taskExample\obj\Debug\taskExample.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\taskExample\taskExample\obj\Debug\taskExample.exe
+c:\users\user\documents\visual studio 2013\Projects\taskExample\taskExample\obj\Debug\taskExample.pdb

@@ -1,0 +1,12 @@
+c:\users\user\documents\visual studio 2013\Projects\Paint\Paint\bin\Debug\Paint.exe.config
+c:\users\user\documents\visual studio 2013\Projects\Paint\Paint\obj\Debug\Paint.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\Paint\Paint\obj\Debug\Paint.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\Paint\Paint\obj\Debug\Paint.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\Paint\Paint\bin\Debug\Paint.exe
+c:\users\user\documents\visual studio 2013\Projects\Paint\Paint\bin\Debug\Paint.pdb
+c:\users\user\documents\visual studio 2013\Projects\Paint\Paint\obj\Debug\Paint.exe
+c:\users\user\documents\visual studio 2013\Projects\Paint\Paint\obj\Debug\Paint.pdb
+c:\users\user\documents\visual studio 2013\Projects\Paint\Paint\obj\Debug\Paint.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\cs2412\Examples\Paint\Paint\bin\Debug\Paint.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\cs2412\Examples\Paint\Paint\obj\Debug\Paint.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\cs2412\Examples\Paint\Paint\obj\Debug\Paint.pdb

@@ -1,0 +1,24 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch17\Fig17_06\LINQToFileDirectory\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch17\Fig17_06\LINQToFileDirectory\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch17\Fig17_06\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch17\Fig17_06\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.LINQToFileDirectoryForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch17\Fig17_06\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch17\Fig17_06\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch17\Fig17_06\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch17\Fig17_06\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\23\23-4-LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\23\23-4-LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\23\23-4-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\23\23-4-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\24\24-4-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\24\24-4-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.pdb
+C:\Users\Laleh\Documents\cs2412\Lectures\25\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.exe
+C:\Users\Laleh\Documents\cs2412\Lectures\25\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\25-1-LINQToFileDirectory-Practice\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\25-1-LINQToFileDirectory-Practice\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\25-1-LINQToFileDirectory-Practice\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\25-1-LINQToFileDirectory-Practice\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.LINQToFileDirectoryForm.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\25-1-LINQToFileDirectory-Practice\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\25-1-LINQToFileDirectory-Practice\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\25-1-LINQToFileDirectory-Practice\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\25-1-LINQToFileDirectory-Practice\25-1-LINQToFileDirectory-Practice\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.pdb

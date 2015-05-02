@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2013\Projects\menutest\menutest\bin\Debug\menutest.exe.config
+c:\users\user\documents\visual studio 2013\Projects\menutest\menutest\bin\Debug\menutest.exe
+c:\users\user\documents\visual studio 2013\Projects\menutest\menutest\bin\Debug\menutest.pdb
+c:\users\user\documents\visual studio 2013\Projects\menutest\menutest\obj\Debug\menutest.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\menutest\menutest\obj\Debug\menutest.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\menutest\menutest\obj\Debug\menutest.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\menutest\menutest\obj\Debug\menutest.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\menutest\menutest\obj\Debug\menutest.exe
+c:\users\user\documents\visual studio 2013\Projects\menutest\menutest\obj\Debug\menutest.pdb

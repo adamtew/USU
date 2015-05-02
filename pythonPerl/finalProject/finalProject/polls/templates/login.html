@@ -1,5 +1,6 @@
 {% include "head.html" %}
 
+
 <!-- Titlebar
 ================================================== -->
 <section class="titlebar">
@@ -26,23 +27,29 @@
 
 	<div class="six columns centered">
 
-		<ul class="tabs-nav my-account">
-			<li class=""><a href="#tab1">Login</a></li>
-			<li><a href="#tab2">Register</a></li>
-		</ul>
-
 		<div class="tabs-container">
 			<!-- Login -->
-			<div class="tab-content" id="tab1" style="display: none;">
+			<div class="tab-content" id="tab1">
 
 				<h3 class="headline">Login</h3><span class="line" style="margin-bottom:20px;"></span><div class="clearfix"></div>
 
-				<form method="post" class="login">
-
+				<form method="post" action="{% url 'polls:home' %}">{% csrf_token %}
 					
+					
+						<table>
+							<tr>
+								<td>{{ form.username.label_tag }}</td>
+								<td>{{ form.username }}</td>
+							</tr>
+							<tr>
+								<td>{{ form.password.label_tag }}</td>
+								<td>{{ form.password }}</td>
+							</tr>
+						</table>
+
 					<p class="form-row form-row-wide">
 						<label for="username">Username or Email Address: <span class="required">*</span></label>
-						<input type="text" class="input-text" name="username" id="username" value="" />
+						<input type="text" class="input-text" name="username" id="username" value="{{ username.username }}" autofocus/>
 					</p>
 
 					<p class="form-row form-row-wide">
@@ -52,49 +59,12 @@
 
 					<p class="form-row">
 						<input type="submit" class="button" name="login" value="Login" />
-
-						<label for="rememberme" class="rememberme">
-						<input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label>
-					</p>
-
-					<p class="lost_password">
-						<a href="#" >Lost Your Password?</a>
+						<input type="hidden" name="next" value="{{ next }}">
 					</p>
 
 					
 				</form>
 			</div>
-
-				<!-- Register -->
-				<div class="tab-content" id="tab2" style="display: none;">
-
-					<h3 class="headline">Register</h3><span class="line" style="margin-bottom:20px;"></span><div class="clearfix"></div>
-
-					<form method="post" class="register">
-						
-						<p class="form-row form-row-wide">
-							<label for="reg_email">Email Address: <span class="required">*</span></label>
-							<input type="email" class="input-text" name="email" id="reg_email" value="" />
-						</p>
-
-						
-						<p class="form-row form-row-wide">
-							<label for="reg_password">Password: <span class="required">*</span></label>
-							<input type="password" class="input-text" name="password" id="reg_password" />
-						</p>
-
-						<p class="form-row form-row-wide">
-							<label for="reg_password2">Repeat Password: <span class="required">*</span></label>
-							<input type="password" class="input-text" name="password" id="reg_password2" />
-						</p>
-
-									
-						<p class="form-row">
-							<input type="submit" class="button" name="register" value="Register" />
-						</p>
-						
-					</form>
-				</div>
 		</div>
 	</div>
 </div>

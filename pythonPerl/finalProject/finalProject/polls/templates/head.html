@@ -7,7 +7,7 @@
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
-<title>Trizzy</title>
+<title>Cats</title>
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -39,10 +39,18 @@
 		<!-- Top Bar Menu -->
 		<div class="ten columns">
 			<ul class="top-bar-menu">
-				<li><i class="fa fa-phone"></i> (564) 123 4567</li>
-				<li><i class="fa fa-envelope"></i> <a href="#">mail@example.com</a></li>
+				<li><i class="fa fa-phone"></i> (800) 123-4567</li>
+				<li><i class="fa fa-envelope"></i> <a href="#">support@cats.com</a></li>
 			</ul>
 		</div>
+
+		{% if request.user.is_authenticated %}
+		<div class="six columns">
+			<ul class="top-bar-menu">
+				<li>Logged in as {{ user.username }}</li>
+			</ul>
+		</div>
+		{% endif %}
 
 	</div>
 </div>
@@ -57,7 +65,7 @@
 	<!-- Logo -->
 	<div class="four columns">
 			<div id="logo">
-				<h1><a href="index.html"><img src="{% static 'polls/images/logo.png' %}" alt="Trizzy" /></a></h1>
+				<h1><!-- <a href="{% url 'polls:about' %}"><img src="{% static 'polls/images/logo.png' %}" alt="Trizzy" /></a> -->&nbsp;</h1>
 			</div>
 	</div>
 	
@@ -66,10 +74,8 @@
 	<div class="twelve columns">
 		<div id="additional-menu">
 			<ul>
-				<li><a href="shopping-cart.html">Shopping Cart</a></li>
-				<li><a href="wishlist.html">WishList <span>(2)</span></a></li>
-				<li><a href="checkout-billing-details.html">Checkout</a></li>
-				<li><a href="my-account.html">My Account</a></li>
+<!-- 				<li><a href="{% url 'polls:cart' %}">Shopping Cart</a></li>
+				<li><a href="{% url 'polls:account' %}">My Account</a></li> -->
 			</ul>
 		</div>
 	</div>
@@ -82,13 +88,14 @@
 				
 			<!-- Button -->
 			<div class="cart-btn">
-				<a href="#" class="button adc">$178.00</a>
+				<a href="#" class="button adc">&nbsp;</a>
 			</div>
 
 			<div class="cart-list">
 
 			<div class="arrow"></div>
 
+				{% if request.session.cart %}
 				<div class="cart-amount">
 					<span>items in the shopping cart</span>
 				</div>
@@ -105,12 +112,15 @@
 					</ul>
 
 				<div class="cart-buttons button">
-					<a href="shopping-cart.html" class="view-cart" ><span data-hover="View Cart"><span>View Cart</span></span></a>
-					<a href="checkout-billing-details.html" class="checkout"><span data-hover="Checkout">Checkout</span></a>
+					<a href="{% url 'polls:cart' %}" class="view-cart" ><span data-hover="View Cart"><span>View Cart</span></span></a>
+					<a href="{% url 'polls:checkout' %}" class="checkout"><span data-hover="Checkout">Checkout</span></a>
 				</div>
-				<div class="clearfix">
-
+				<div class="clearfix"></div>
+				{% else %}
+				<div class="cart-amount">
+					<span>No items in the shopping cart</span>
 				</div>
+				{% endif %}
 			</div>
 
 		</div>
@@ -141,9 +151,10 @@
 				<li><a href="{% url 'polls:about' %}">about</a></li>
 				<li><a href="{% url 'polls:contact' %}">contact</a></li>
 				<li><a href="{% url 'polls:categories' %}">categories</a></li>
-				<li><a href="{% url 'polls:details' %}/3">detail</a></li>
-				<li><a href="{% url 'polls:login' %}">login</a></li>
+				<!-- <li><a href="{% url 'polls:details' %}/3">detail</a></li> -->
 				<li><a href="{% url 'polls:checkout' %}">checkout</a></li>
+				<li><a href="{% url 'polls:cart' %}">cart</a></li>
+				<li><a href="{% url 'polls:login' %}">login</a></li>
 			</ul>
 		</nav>							
 	</div>

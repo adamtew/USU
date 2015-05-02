@@ -25,6 +25,18 @@ class Item(models.Model):
 		return self.description
 
 
+# class User(models.Model):
+# 	price = models.IntegerField(default=0)
+# 	description = models.CharField(max_length=20)
+# 	category = models.ForeignKey(Category)
+# 	picture = models.CharField(max_length=50)
+# 	# description = models.CharField(max_length=200)
+# 	# myQ = models.ForeignKey(Question)
+
+# 	def __unicode__(self):
+# 		return self.description
+
+
 # class Question(models.Model):
 # 	question_text = models.CharField(max_length=200)
 # 	pub_date = models.DateTimeField('date published')

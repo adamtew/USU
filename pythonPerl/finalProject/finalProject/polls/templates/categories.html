@@ -16,7 +16,7 @@
 					<li><a href="#">{{ i.Category }}</a>
 						<ul>
 						{% for j in i.Items %}
-						<li><a href="#">{{ j }}</a></li>
+						<li><a href="{% url 'polls:details' %}/{{ j.id }}">{{ j }}</a></li>
 						{% endfor %}
 						</ul>
 					</li>

@@ -1,53 +1,115 @@
 {% include "head.html" %}
 {% load staticfiles %}
-<!-- Titlebar
+
+<!-- Content
 ================================================== -->
-<section class="titlebar">
+
+<!-- Container -->
 <div class="container">
-	<div class="sixteen columns">
-		<h2>Shopping Cart</h2>
-		
-		<nav id="breadcrumbs">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li>Shopping Cart</li>
-			</ul>
-		</nav>
+
+	<div class="eight columns">
+
+
+	<!-- Checkout Content -->
+	<div class="checkout-section"><span>1</span> Billing Details <strong><i class="fa fa-edit"></i>Edit</strong> </div>
+	<div class="checkout-content">
+	
+	<div class="four columns alpha">
+		<ul class="address-review">
+			<li><strong>Billing Address</strong></li>
+			<li>Mr. Walter C. Brown</li>
+			<li>49 Featherstone Street</li>
+			<li> London</li>
+			<li> EC1Y 8SY</li>
+			<li>United Kingdom</li>
+		</ul>
 	</div>
-</div>
-</section>
+	<div class="four columns alpha omega">
+		<ul class="address-review">
+			<li><strong>Shipping Address</strong></li>
+			<li>Same as Billing Address</li>
+		</ul>
+	</div>
+	<div class="clearfix"></div>
+	</div>
+
+		<div class="clearfix"></div>
+
+			<div class="checkout-section"><span>2</span> Payment & Order Review</div>
+			<div class="checkout-summary">
+				<div class="eight columns alpha omega">
+					<ul class="address-review summary">
+						<li><strong>Credit Card</strong></li>
+						<li>
+							<ul class="payment-icons checkout">
+								<li><img src="{% static 'polls/images/visa.png' %}" alt="" /></li>
+								<li><img src="{% static 'polls/images/mastercard.png' %}" alt="" /></li>
+								<li><img src="{% static 'polls/images/skrill.png' %}" alt="" /></li>
+								<li><img src="{% static 'polls/images/moneybookers.png' %}" alt="" /></li>
+								<li><img src="{% static 'polls/images/paypal.png' %}" alt="" /></li>
+							</ul>
+							<div class="clearfix"></div>
+						</li>
+						<li class="credit-card-fields">
+							<span><label>Credit Card Number:</label><input type="text" value="" /></span>
+
+							<span><label>Month:</label>
+							<select>
+								<option value="">01</option>
+								<option value="">02</option>
+								<option value="">03</option>
+								<option value="">04</option>
+								<option value="">05</option>
+								<option value="">06</option>
+								<option value="">07</option>
+								<option value="">08</option>
+								<option value="">09</option>
+								<option value="">10</option>
+								<option value="">11</option>
+								<option value="">12</option>
+							</select></span>
+							
+							<span><label>Year:</label>
+							<select>
+								<option value="">2014</option>
+								<option value="">2015</option>
+								<option value="">2016</option>
+								<option value="">2017</option>
+								<option value="">2018</option>
+							</select></span>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+	
+			<a href="#" class="continue button color">Place Order</a>
+
+		</div>
+		<!-- Checkout Content / End -->
 
 
-<div class="container cart">
-
-	<div class="sixteen columns">
-
+	<!-- Checkout Cart -->
+	<div class="eight columns">
+		<div class="checkout-section cart">Shopping Cart</div>
 		<!-- Cart -->
-		<table class="cart-table responsive-table">
+		<table class="checkout cart-table responsive-table">
+
 			<tr>
-				<th>Item</th>
-				<th>Description</th>
+				<th class="hide-on-mobile">Item</th>
+				<!-- <th></th> -->
 				<th>Price</th>
-				<th>Quantity</th>
+				<th>Qty</th>
 				<th>Total</th>
-				<th></th>
 			</tr>
-			{% for item in request.session.cart %}
 					
-			<!-- Item #1 -->
+			{% for item in request.session.cart %}
 			<tr>
-				<td><img src="{% static '' %}{{ item.picture }}.jpg" alt=""/></td>
+				<!-- <td class="hide-on-mobile"></td> -->
 				<td class="cart-title"><a href="#">{{ item.description }}</a></td>
 				<td>${{ item.price }}.00</td>
-				<td>
-					<form action='#'>
-						<div class="qtyminus"></div>
-						<input type='text' name="quantity" value='1' class="qty" />
-						<div class="qtyplus"></div>
-					</form>
-				</td>
+				<td class="qty-checkout">1</td>
 				<td class="cart-total">${{ item.price }}.00</td>
-				<td><a href="#" class="cart-remove"></a></td>
 			</tr>
 			{% endfor %}
 
@@ -57,50 +119,22 @@
 			<table class="cart-table bottom">
 
 				<tr>
-				<th>
-					<div class="cart-btns">
-						{% if request.session.loggedIn %}
-						<a href="checkout-billing-details.html" class="button color cart-btns proceed">Proceed to Checkout</a>
-						{% else %}
-						<a href="#" class="button color cart-btns proceed">Login to checkout</a>
-						{% endif %}
-						<a href="#" class="button gray cart-btns">Update Cart</a>
-					</div>
+				<th class="checkout-totals">
+					<div class="checkout-subtotal">Subtotal: <span>${{ context }}.00</span></div><br>
+					<div class="checkout-subtotal">Shipping & Handling: <span>$0.00</span></div><br>
+					<div class="checkout-subtotal summary">Order Total: <span>${{ context }}.00</span></div>
 				</th>
 				</tr>
 
 			</table>
 	</div>
+	<!-- Checkout Cart / End -->
 
-
-	<!-- Cart Totals -->
-	<div class="eight columns cart-totals">
-		<h3 class="headline">Cart Totals</h3><span class="line"></span><div class="clearfix"></div>
-
-		<table class="cart-table margin-top-5">
-
-			<tr>
-				<th>Cart Subtotal</th>
-				<td><strong>$178.00</strong></td>
-			</tr>
-
-			<tr>
-				<th>Shipping and Handling</th>
-				<td>Free Shipping</td>
-			</tr>
-
-			<tr>
-				<th>Order Total</th>
-				<td><strong>$178.00</strong></td>
-			</tr>
-
-		</table>
-		<br>
-		<!-- <a href="#" class="calculate-shipping"><i class="fa fa-arrow-circle-down"></i> Calculate Shipping</a> -->
-	</div>
 
 </div>
+<!-- Container / End -->
 
-<div class="margin-top-40"></div>
+<div class="margin-top-30"></div>
+
 
 {% include "foot.html" %}

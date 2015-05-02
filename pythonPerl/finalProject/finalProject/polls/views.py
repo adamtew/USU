@@ -14,18 +14,44 @@ from .models import Item, Category
 # import pdb; pdb.set_trace()
 
 def index(request):
-	return render(request, 'index.html');
+	title = "Index";
+	return render(request, 'home.html');
+
+def cart(request, itemId=0, clear=False):
+	title = "Cart";
+	if 'purchase' in request.GET:
+		item = Item.objects.filter(id=itemId);
+		makeCart(request, item[0]);
+
+	if 'clear' in request.GET:
+		clearCart(request);
+
+	total = getTotals(request);
+
+	context = {"context": total};
+	return render(request, 'cart.html', context);
 
 def home(request):
+	title = "Home";
 	return render(request, 'home.html');
+
+def account(request):
+	title = "Account";
+	# username = None
+	if request.user.is_authenticated():
+		username = request.user.username;
+		return render(request, 'account.html');
+	return render(request, 'login.html');	
 
 def about(request):
 	return render(request, 'about.html');
 
 def contact(request):
+	title = "Contact";
 	return render(request, 'contact.html');
 
 def categories(request):
+	title = "Categories";
 	name = "Adam";
 	c = Category.objects.all();
 	i = Item.objects.all();
@@ -36,6 +62,9 @@ def categories(request):
 	return render(request, 'categories.html', context);
 
 def details(request, itemId=0):
+	title = "Details";
+	# import pdb; pdb.set_trace()
+
 	if 'purchase' in request.GET:
 		item = Item.objects.filter(id=itemId);
 		makeCart(request, item[0]);		
@@ -44,25 +73,52 @@ def details(request, itemId=0):
 	i = Item.objects.filter(id=itemId);
 	context = {'item': i[0]};
 	request.session.name = "Adam";
-	# import pdb; pdb.set_trace()
 
 	return render(request, 'details.html', context);
 
 def login(request):
+	title = "Login";
+
 	return render(request, 'login.html');
 
-def checkout(request):
-	return render(request, 'checkout.html');
+def checkout(request, itemId=0, clear=False):
+	title = "Checkout";
+	if 'purchase' in request.GET:
+		item = Item.objects.filter(id=itemId);
+		makeCart(request, item[0]);
 
-def makeCart(myRequest, value):
+	if 'clear' in request.GET:
+		clearCart(request);
+
+	total = getTotals(request);
+
+	context = {"context": total};
+	return render(request, 'checkout.html', context);
+
+def makeCart(myRequest, item):
 	if 'cart' in myRequest.session:
 		temp = myRequest.session['cart'];
-		temp.append(value);
+		temp.append(item);
 		myRequest.session['cart'] = temp;
 	else:
+		# myRequest['cart'][item['Item']] = item;
+		# myRequest['cart'][item['count']] = 0;
 		temp = [];
-		temp.append(value);
+		temp.append(item);
 		myRequest.session['cart'] = temp;
+
+
+def clearCart(myRequest):
+	if 'cart' in myRequest.session:
+		myRequest.session.clear();
+
+
+def getTotals(myRequest):
+	total = 0;
+	if 'cart' in myRequest.session:
+		for value in myRequest.session['cart']:
+			total = total + value.price;
+	return total;
 
 # class IndexView(generic.ListView):
 # 	template_name = 'polls/index.html'

@@ -17,6 +17,13 @@ urlpatterns = [
 	url(r'^details/(?P<itemId>[0-9]+)$', views.details, name="details"),
 	url(r'^login$', views.login, name="login"),
 	url(r'^checkout$', views.checkout, name="checkout"),
+	url(r'^checkout/(?P<itemId>[0-9]+)$', views.checkout, name="checkout"),
+	url(r'^checkout(?P<clear>true)$', views.checkout, name="checkout"),
+	url(r'^account$', views.account, name='account'),
+	url(r'^cart$', views.cart, name='cart'),
+	url(r'^cart/(?P<itemId>[0-9]+)$', views.cart, name="cart"),
+	url(r'^cart(?P<clear>true)$', views.cart, name="cart"),
+	url(r'^index$', views.index, name='index'),
 
 	# url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
 	

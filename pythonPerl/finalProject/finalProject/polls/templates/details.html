@@ -22,7 +22,7 @@
 ================================================== -->
 	<div class="eight columns">
 		<div class="product-page">
-			<h3>{{ request.session.cart }}</h3>
+			<!-- <h3>{{ request.session.cart }}</h3> -->
 			<!-- Headline -->
 			<section class="title">
 				<h2>{{ item }}</h2>
@@ -44,7 +44,7 @@
 						<div class="qtyplus"></div>
 					</form>
 
-					<a href="#" class="button adc">Add to Cart</a>
+					<a href="{% url 'polls:cart' %}/{{ item.id }}?purchase=True" class="button adc">Add to Cart</a>
 					<div class="clearfix"></div>
 
 			</section>
