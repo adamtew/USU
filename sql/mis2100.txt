@@ -1,0 +1,43 @@
+ORDER BY TickerSymbol;
+*/
+--5. List the TickerSymbol, Industry, TradeDate and the Volume columns from the StockData table.  List only the rows that have a volume of more than thirty million shares traded. 
+--Arrange the answer in TickerSymbol order and then in TradeDate order.  This means that for a given stock, trading days should appear in chronological order.
+/*
+SELECT TickerSymbol, Industry, TradeDate, Volume
+    FROM StockData
+    WHERE Volume > 30000000
+ORDER BY TickerSymbol, TradeDate;
+*/
+--6. List the TickerSymbol, Industry, TradeDate, the opening stock price and the closing stock price. 
+--List only those trading days that occurred in the year 2011. 
+--Arrange the answer in order of the trade dates, which means that for a given stock, trading days should appear in chronological order.
+/*
+SELECT TickerSymbol, Industry, TradeDate, ST_Open, ST_Close
+    FROM StockData
+    WHERE TradeDate >= '1/1/2011' AND TradeDate    < '1/1/2012'
+ORDER BY TradeDate;
+*/
+--7. List the TickerSymbol, Industry, TradeDate, the opening stock price and the closing stock price. 
+--List only those trading days that occurred in the year 2011. 
+--Arrange the answer in order of the industry, the ticker symbol, and then by the trade dates. 
+--Please use the "greater than" and "less than" operators for this answer.
+
+SELECT TickerSymbol, Industry, TradeDate, ST_Open, ST_Close
+    FROM StockData
+    WHERE TradeDate >= '1/1/2011' AND TradeDate < '1/1/2012'
+
+--8. List the TickerSymbol, Industry, TradeDate, the opening stock price and the closing stock price.  List only those trading days that occurred in the year 2011.  Arrange the answer in order of the industry, the ticker symbol, and then by the trade dates.  Please use "between" for this answer.
+
+--9. List the TickerSymbol, Industry, TradeDate, the opening stock price and the closing stock price.  List only stocks that include the word "oil" in the industry description.  Arrange the answer in order of the industry, the ticker symbol, and then by the trade dates.
+
+--10. List the TickerSymbol, Industry, TradeDate, the opening stock price and the closing stock price.  List only stocks that do not include the word "oil" in the industry description.  Arrange the answer in order of the industry, the ticker symbol, and then by the trade dates.
+
+--11. List the TickerSymbol, TradeDate and the closing stock price.  List only Microsoft tuples that occurred between January 1, 2000 and June 1, 2011.  Arrange the answer in order of the ticker symbol, trade dates and then the closing price.
+
+--12. List the TickerSymbol, TradeDate and the closing stock price.  List only Microsoft tuples that occurred on dates other than the range January 1, 2000 to June 1, 2011.  Arrange the answer in order of the ticker symbol, trade dates and then the closing price.
+
+--13. List the TickerSymbol, Industry, TradeDate, the opening price and the closing stock price.  List only the ‘BP’ and ‘XOM’ ticker symbols.  Arrange the answer in order of the ticker symbol, Industry and the trade dates.
+
+--14. List the Price ID of all stocks that have a volume of 0.  List the Price IDs in descending order.
+
+--15. Return all attributes for stocks that have a closing price within 24 and 25 dollars.  List the closing prices in descending order.
