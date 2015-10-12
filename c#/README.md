@@ -1,6 +1,4 @@
-CS 2412 C#
-======
-Junior Year
+# CS 2412 C#
 
 Spring 2015
 
