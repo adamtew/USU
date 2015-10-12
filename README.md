@@ -2,7 +2,7 @@
 
 ![Utah State](https://www.usu.edu/prm/identity/img/vertical_logo_on_white.jpg)
 
-## Sophomore Year
+## Freshman Year
 
 ### Fall 2014
 
@@ -17,7 +17,7 @@
 * **CS2410**  *Introduction to GUI* __--__ C#
 * **CS3430** *Computational Science* __--__ Python and Perl
 
-## Junior Year
+## Sohpomore Year
 
 ### Fall 2015
 
