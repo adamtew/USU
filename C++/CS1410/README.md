@@ -1,6 +1,4 @@
-CS 1410 (C++)
-======
-Junior year
+# CS 1410 (C++)
 
 Spring 2015
 
