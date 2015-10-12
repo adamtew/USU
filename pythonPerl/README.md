@@ -1,6 +1,4 @@
-CS3430 Python and Perl
-======
-Junior year
+# CS3430 Python and Perl
 
 Spring 2015
 
