@@ -1,9 +1,0 @@
-c:\users\user\documents\visual studio 2013\Projects\LinkTest\LinkTest\bin\Debug\LinkTest.exe.config
-c:\users\user\documents\visual studio 2013\Projects\LinkTest\LinkTest\bin\Debug\LinkTest.exe
-c:\users\user\documents\visual studio 2013\Projects\LinkTest\LinkTest\bin\Debug\LinkTest.pdb
-c:\users\user\documents\visual studio 2013\Projects\LinkTest\LinkTest\obj\Debug\LinkTest.csprojResolveAssemblyReference.cache
-c:\users\user\documents\visual studio 2013\Projects\LinkTest\LinkTest\obj\Debug\LinkTest.Form1.resources
-c:\users\user\documents\visual studio 2013\Projects\LinkTest\LinkTest\obj\Debug\LinkTest.Properties.Resources.resources
-c:\users\user\documents\visual studio 2013\Projects\LinkTest\LinkTest\obj\Debug\LinkTest.csproj.GenerateResource.Cache
-c:\users\user\documents\visual studio 2013\Projects\LinkTest\LinkTest\obj\Debug\LinkTest.exe
-c:\users\user\documents\visual studio 2013\Projects\LinkTest\LinkTest\obj\Debug\LinkTest.pdb

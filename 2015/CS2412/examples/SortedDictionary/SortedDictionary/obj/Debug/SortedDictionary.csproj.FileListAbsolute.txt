@@ -1,5 +1,0 @@
-c:\users\user\documents\visual studio 2013\Projects\SortedDictionary\SortedDictionary\obj\Debug\SortedDictionary.csprojResolveAssemblyReference.cache
-c:\users\user\documents\visual studio 2013\Projects\SortedDictionary\SortedDictionary\bin\Debug\SortedDictionary.dll
-c:\users\user\documents\visual studio 2013\Projects\SortedDictionary\SortedDictionary\bin\Debug\SortedDictionary.pdb
-c:\users\user\documents\visual studio 2013\Projects\SortedDictionary\SortedDictionary\obj\Debug\SortedDictionary.dll
-c:\users\user\documents\visual studio 2013\Projects\SortedDictionary\SortedDictionary\obj\Debug\SortedDictionary.pdb

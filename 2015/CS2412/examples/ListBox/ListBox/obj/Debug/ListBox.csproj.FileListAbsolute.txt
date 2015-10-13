@@ -1,9 +1,0 @@
-c:\users\user\documents\visual studio 2013\Projects\ListBox\ListBox\bin\Debug\ListBox.exe.config
-c:\users\user\documents\visual studio 2013\Projects\ListBox\ListBox\bin\Debug\ListBox.exe
-c:\users\user\documents\visual studio 2013\Projects\ListBox\ListBox\bin\Debug\ListBox.pdb
-c:\users\user\documents\visual studio 2013\Projects\ListBox\ListBox\obj\Debug\ListBox.csprojResolveAssemblyReference.cache
-c:\users\user\documents\visual studio 2013\Projects\ListBox\ListBox\obj\Debug\ListBox.Form1.resources
-c:\users\user\documents\visual studio 2013\Projects\ListBox\ListBox\obj\Debug\ListBox.Properties.Resources.resources
-c:\users\user\documents\visual studio 2013\Projects\ListBox\ListBox\obj\Debug\ListBox.csproj.GenerateResource.Cache
-c:\users\user\documents\visual studio 2013\Projects\ListBox\ListBox\obj\Debug\ListBox.exe
-c:\users\user\documents\visual studio 2013\Projects\ListBox\ListBox\obj\Debug\ListBox.pdb

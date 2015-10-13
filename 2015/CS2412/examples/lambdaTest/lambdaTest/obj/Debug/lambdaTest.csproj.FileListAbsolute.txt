@@ -1,5 +1,0 @@
-c:\users\user\documents\visual studio 2013\Projects\lambdaTest\lambdaTest\bin\Debug\lambdaTest.exe.config
-c:\users\user\documents\visual studio 2013\Projects\lambdaTest\lambdaTest\bin\Debug\lambdaTest.exe
-c:\users\user\documents\visual studio 2013\Projects\lambdaTest\lambdaTest\bin\Debug\lambdaTest.pdb
-c:\users\user\documents\visual studio 2013\Projects\lambdaTest\lambdaTest\obj\Debug\lambdaTest.exe
-c:\users\user\documents\visual studio 2013\Projects\lambdaTest\lambdaTest\obj\Debug\lambdaTest.pdb
