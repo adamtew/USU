@@ -1,0 +1,227 @@
+%
+% LaTeX source of my resume
+% =========================
+%
+% Heavily commented to to fit even LaTeX beginners (hopefully).
+%
+% See the `README.md` file for more info.
+%
+% This file is licensed under the CC-NC-ND Creative Commons license.
+%
+
+
+% Start a document with the here given default font size and paper size.
+\documentclass[10pt,letter]{article}
+
+% Set the page margins.
+\usepackage[letter,margin=1in]{geometry}
+\usepackage{bigints}
+\usepackage{enumitem}
+\usepackage{titlesec}
+% Setup the language.
+\usepackage[english]{babel}
+\hyphenation{Some-long-word}
+
+% Makes resume-specific commands available.
+\usepackage{resume}
+
+
+
+
+\begin{document}  % begin the content of the document
+\sloppy  % this to relax whitespacing in favour of straight margins
+
+% title on top of the document
+\begin{center}
+    \maintitle{Adam Tew}
+\end{center}
+
+\spacedhrule{-.5em}{-.5em}
+% \vspace{.51em}
+% \nobreakvspace{0.3em}  % add some page break averse vertical spacing
+
+% \noindent prevents paragraph's first lines from indenting
+% \mbox is used to obfuscate the email address
+% \sbull is a spaced bullet
+% \href well..
+% \\ breaks the line into a new paragraph
+\begin{center}
+    435.890.4750\sbull
+    \href{http://www.linkedin.com/in/adamtew}{linkedin.com/in/adamtew}\sbull
+    \href{http://www.github.com/adamtew}{github.com/adamtew}\sbull
+    \noindent\href{mailto:adamjtewatgmail.com}{adamjtew\mbox{}@\mbox{}gmail.com}
+\end{center}
+
+% %%%%%%%%%%
+% EDUCATION
+% %%%%%%%%%%
+
+\roottitle{EDUCATION}
+
+% Utah State University
+\mysection
+    {B.S. Computer Science --}
+    {\href{https://www.usu.edu/}{Utah State University}}
+    {}
+    {May 2017}
+\bodytext{
+    \begin{itemize}
+        \item Maintained a 3.4 GPA while working 25-50 hours a week
+    \end{itemize}
+}
+
+\vspace{.5em}
+
+% BATC
+\mysection
+    {Information Technology --}
+    {\href{http://batc.edu/}{Bridgerland Applied Technology College}}
+    {}
+    {July 2016}
+\bodytext{
+    \begin{itemize}
+        \item A+, Net+, Security+
+    \end{itemize}
+}
+
+\spacedhrule{1em}{-0.0em}
+
+
+% %%%%%%%%%
+% LANGUAGES
+% %%%%%%%%%
+
+\roottitle{LANGUAGES}
+\vspace{-1.5em}
+
+  \begin{center}
+    \item \sbull C++ \sbull PowerShell \sbull HTML \sbull ColdFusion \sbull SQL \sbull CSS \sbull JavaScript \sbull Jquery \sbull Python \sbull  Django \sbull C\# \sbull node.js \sbull bash \sbull ASP.Net Web Form and Entity Framework \sbull Perl \sbull MarkDown \sbull
+  \end{center}
+
+\spacedhrule{1em}{-0.0em}
+
+% %%%%%%%%
+% PROGRAMS
+% %%%%%%%%
+
+\roottitle{PROGRAMS}
+\vspace{-1.5em}
+
+\begin{center}
+    \item \sbull Windows \sbull OS X \sbull Linux \sbull Sublime Text \sbull vim \sbull git \sbull svn \sbull MySQL \sbull MS SQL \sbull VirtualBox \sbull  SCCM \sbull Windows Server \sbull Terminal \sbull Visual Studio \sbull FileZilla \sbull PyCharm \sbull Active Directory \sbull AWS \sbull CLion
+\end{center}
+
+\spacedhrule{1em}{-0.0em}
+
+% %%%%%%%%%%%%%%%%%%
+% RELATED EXPERIENCE
+% %%%%%%%%%%%%%%%%%%
+
+\roottitle{RELATED EXPERIENCE}
+
+    % Adilas
+\mysection
+    {Web Developer --}
+    {\href{adilas.biz}{Adilas}}
+    { (contractor)}
+    {January 2015 -- Present}
+\bodytext{
+    \begin{itemize}
+        \item Became a lead developer within six months \vspace{-.5em}
+        \item Train interns on ColdFusion and git\vspace{-.5em}
+        \item Researched and implemented OOP and MVC methodologies  \vspace{-.5em}
+        \item Review, Sign-off, and push code to servers with FTP software\vspace{-.5em}
+    \end{itemize}
+}
+
+\vspace{1em}
+
+    % Fresh Code
+\mysection
+    {Programmer --}
+    {\href{www.google.com}{Fresh Code} }
+    {(Contractor)}
+    {September 2015 -- Present}
+\bodytext{
+    \begin{itemize}
+        \item Support web application using PyCharm and Django\vspace{-.5em}
+        \item Update content for Mormon.org with using YAML \vspace{-.5em}
+    \end{itemize}
+}
+
+\vspace{1em}
+
+    % FCHD
+\mysection
+    {Web Developer --}
+    {\href{https://careaboutchildcare.utah.gov/}{Utah State University}}
+    {}
+    {September 2015 -- Present}
+\bodytext{
+    \begin{itemize}
+        \item Support a state-wide website for the Department of Workforce Services \vspace{-.5em}
+        \item Migrate ASP.Net Web Forms pages to Entity Framework\vspace{-.5em}
+    \end{itemize}
+}
+
+\vspace{1em}
+
+    % SDL
+\mysection
+    {Network Assistant --}
+    {\href{http://www.spacedynamics.org/}{Space Dynamics Laboratory}}
+    {}
+    {October 2012 -- May 2015}
+\bodytext{
+    \begin{itemize}
+        \item Worked with a team of eight to support over 800 computers\vspace{-.5em}
+        \item Recabled network infrastructure\vspace{-.5em}
+        \item Developed a concurrent program to query client machines for encryption using PowerShell in conjunction with Active Directory and SCCM \vspace{-.5em}
+        \item Implemented an automated web scraper to check for updates of existing software \vspace{-.5em}
+        \item Created ESXi host with Windows and Linux guests, managed through vSphere \vspace{-.5em}
+    \end{itemize}
+}
+
+% \vspace{1em}
+\spacedhrule{1em}{-0.0em}
+
+% %%%%%%%%%%%%%%%%%%%%
+% VOLUNTEER EXPERIENCE
+% %%%%%%%%%%%%%%%%%%%%
+
+\roottitle{VOLUNTEER EXPERIENCE}
+
+% Mission
+\mysection
+    {Volunteer --}
+    {Non-Profit Organization}
+    {}
+    {July 2008 -- July 2010}
+\bodytext{
+    \begin{itemize}
+        \item Spent two years in the southern United States teaching people to live better lives \vspace{-.5em}
+        \item Trained volunteers in groups and individually\vspace{-.5em}
+        \item Served in various leadership roles conducting interviews and group trainings\vspace{-.5em}
+    \end{itemize}
+}
+
+\vspace{1em}
+
+% Builders without Borders
+\mysection
+    {Volunteer --}
+    {Builders Without Borders}
+    {}
+    {December 2013 -- January 2013}
+\bodytext{
+    \begin{itemize}
+        \item Built homes in Tijuana, Mexico as part of a humanitarian group\vspace{-.5em}
+        \item Worked in groups of 8-15 volunteers to roof, paint, sheetrock, and stucco houses\vspace{-.5em}
+    \end{itemize}
+}
+
+
+\end{document}
+
+＀
+
