@@ -17,7 +17,7 @@
 * **CS2410**  *Introduction to GUI* __--__ C#
 * **CS3430** *Computational Science* __--__ Python and Perl
 
-## Sohpomore Year
+## Sophomore Year
 
 ### Fall 2015
 
