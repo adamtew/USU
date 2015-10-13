@@ -14,4 +14,6 @@
 |9. Scalar Arithmetic|*Perl*|
 |10. Matrix Arithmetic|*Perl*|
 ##Final Project
+* Exams *I and II*
+* Final Proposal
 * Build a Django website
