@@ -67,13 +67,15 @@ __Disadvantages:__
 ## Cuckoo Hashing
 >Cuckoo hashing  worst-case constant lookup time. >The name derives from the behavior of some species of cuckoo, where the cuckoo chick pushes the other eggs or young out of the nest when it hatches; analogously, inserting a new key into a cuckoo hashing table may push an older key to a different location in the table.- There are two hash functions, one for each table.- If a key can’t go in either location, it tries to move the existing key to its alternative spot in the other table.- When a new key is inserted, the new key is inserted in one of its two possible locations, "kicking out", that is, displacing, any key that might already reside in this location. - This displaced key is then inserted in its alternative location, again kicking out any key that might reside there, until a vacant position is found, or the procedure enters an __infinite loop__. In the latter case, the __hash table__ is rebuilt __in-place__ using new __hash functions__:--# Priority Queue <a name="priority-queue"></a> [Instructor Notes](https://usu.instructure.com/courses/388377/files/58841559/download?wrap=1)> Anything Greedy|Main Idea|Sub idea|Description|
 |---|---|---|
-|Binary Heap|
-|D-Heap|Examples:  
+|Non-Mergable Heaps	|[Binary Heap](#queue-binary-heap)|
+|						|[D-Heap](#queue-d-heap)|
+|Mergable Heaps	|[Leftist Heap](#queue-leftist-heap)||					|[Skew Heap](#queue-skew-heap)|
+|					|[Binomial Queue](#queue-binomial-queue)|Examples:  
 - ordering CPU jobs  - searching for the exit in a maze (or looking for moves in the rotation puzzle game)  - emergency room admission processing  
 
 You don't need to be as sorted as other data structures (BST trees, Splay trees, AVL trees)
 
-## Binary Heap
+## Binary Heap <a name="queue-binary-heap"></a>
 
 ```c++
 // Delete Code
@@ -105,7 +107,41 @@ buildHeap(){  for (i=size/2; i>0; i--)     percolateDown(i);}
 
 - Each node has d children- Still representable by array### Good choices for d:- optimize performance based on # of inserts/removes- power of two for efficiency- fit one set of children in a cache line  (the block of memory that - is transferred to memory cache)- fit one set of children on a memory page/disk block### Merging
 
---# Sorting <a name="sorting"></a> [Instructor Notes](https://usu.instructure.com/courses/388377/files/58888554/download?wrap=1)
+Complexity of O(n) with Floyd's method
+
+## Leftist Heap <a name="queue-leftist-heap"></a>
+> Binary heap-ordered trees with left subtrees always “longer” than right subtrees
+> A heap structure that enables fast merges
+
+- Main idea: Recursively work on right path for Merge/Insert/DeleteMin- Right path is always short  has O(log N) nodes- Merge, Insert, DeleteMin all have O(log N) running time (see text)
+### Null Path Length
+> the null path length (npl) of a node is the smallest number of nodes between it and a null in the tree```c++npl(null) = -1npl(leaf) = 0npl(single-child node) = 0```### Heap-order property- parent’s priority value is  to childrens’ priority values- result: minimum element is at the root### Leftist property
+- null path length of left subtree is  npl of right subtree- result: tree is at least as “heavy” on the left as the right- every subtree of a leftist tree is leftist!
+- Basically, the shortest path must be to the right.  So, if you always take the shortest path, it can’t be longer than log n.### Merging
+
+- If both the left and right sub-trees are leftist heaps but the root does not form a leftist heap, We only need to swap the two sub-trees- We can use this to merge two leftist heaps- Merging strategy: Given two leftist heaps, recursively merge the larger value with the right sub-heap of the rootTraversing back to the root, swap trees to maintain the leftist heap property```c++
+Node * merge (Node * t1, Node * t2)   // t1 and t2 are merged, new tree is created       {     Node * small;              if (t1==NULL)  return t2;              if (t2==NULL) return t1;              if (t1 ->element < t2->element) {                    t1->right = merge(t1->right, t2);                     small=t1;}             else {                     t2->right = merge(t2->right, t1);                    small=t2;}               if (notLeftist(small)) swapkids(small);                setNullPathLength(small);               return small;      }```- The heaps are merged, but the result is not a leftist heap as 3 is unhappy. __On the way back our of the recursion__ swap sub-heaps where necessary.  Find the unhappy nodes – after updating the null path lengths.
+
+### Problems with leftist heaps- extra storage for npl- extra complexity/logic to maintain and check npl
+## Skew Heap <a name="queue-skew-heap"></a>
+> Self-adjusting version of leftist heaps (a la splay trees)
+
+> Motivation? Remember that we “often” get heavy right sides when we merge.So, why not just assume the right side is heavy and move it over automatically?
+
+> We can make a simple modification to the leftist heap and get similar results without storing (or computing) the null path length.> We always merge with the right child, but after merging, we swap the left and right children for every node in the resulting right path of the temporary tree.
+
+- Do not actually keep track of path lengths- Adjust tree by swapping children during each merge- O(log N) amortized time per operation for a sequence of M operations
+
+Skew Notes
+
+- blind adjusting version of leftist heaps- amortized time for merge, insert, and deleteMin is O(log n)- worst case time for all three is O(n)- merge always switches children when fixing right path- iterative method has only one pass
+```c++
+Node * SkewHeapMerge (Node * t1, Node * t2)   // t1 and t2 are merged, a new tree       {    Node * small;              if (t1==NULL)  return t2;              if (t2==NULL) return t1;              if (t1 ->element < t2->element) {                    t1->right = merge(t1->right, t2);                    small=t1;}             else {                     t2->right = merge(t2->right, t1);                    small=t2;}               swapkids(small);                 return small;      }```
+
+## Binomial Queue <a name="queue-binomial-queue"></a>
+
+
+--# Sorting <a name="sorting"></a> [Instructor Notes](https://usu.instructure.com/courses/388377/files/58888554/download?wrap=1)
   
 |Main Idea|Sub Idea|Complexity|Adaptive|Stable|in-Place|
 |---|---|---|---|---|---|
@@ -194,3 +230,4 @@ buildHeap(){  for (i=size/2; i>0; i--)     percolateDown(i);}
 ## Appendix
 
 - __Greedy:__ A greedy algorithm is an algorithm that follows the problem solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.
+- __Null Path Length:__ the null path length (npl) of a node is the smallest number of nodes between it and a null in the tree
