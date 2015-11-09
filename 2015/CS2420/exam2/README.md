@@ -1,8 +1,13 @@
 # Exam II
 
-|Topics|
-|---|
-|[Hashing](#hashing)|
+|Topics|Sub Topics|
+|---|---|
+|[Hashing](#hashing)|[Hash Function](#hash-function)|
+|						|[Collisions](#hash-collisions)|
+|						|[Rehash](#hash-rehash)|
+|						|[Efficiency](#hash-efficiency)|
+|						|[Deletions](#hash-deletions)|
+|						|[Cuckoo](#hash-cuckoo)|
 |[Priority Queue](#priority-queue)
 |[Sorting](#sorting)|
 
@@ -31,7 +36,7 @@ unsigned int  hash(string key){unsigned int hashVal=0;   for (i=0; i < key.len
 
 __Properties of a good hash function:__  - Minimize collisions  - Fast to compute  - Scatter data evenly through hash table. Data may have patterns to them.  - Uses all bits of the key – generally helps in scattering non-random data  - If mod is used, base should be prime  
 
-## Collisions <a name="collisions"></a>
+## Collisions <a name="hash-collisions"></a>
 
 >When two values hash to the same array location, this is called a collision- Solution #1: Search from desired spot for an empty location  (with wrap)- Solution #2: Try again with a second hash function...and a third, and a fourth, and a fifth, ... to find a better location.- Solution #3: Create a linked list of values that hash to this location
 
@@ -59,12 +64,12 @@ __Properties of a good hash function:__  - Minimize collisions  - Fast to comp
 __Disadvantages:__  
 - Links require space   - Following linked list is more time consuming
 
->Works well, but we have the overhead of pointers. ## Rehash <a name="rehash"></a>
+>Works well, but we have the overhead of pointers. ## Rehash <a name="hash-rehash"></a>
 >Rehash – create a larger  (or smaller) array.  Rehash all old elements into new array.## Efficiency <a name="hash-efficiency"></a>
 > Hash tables are actually surprisingly efficient- Until the table is about 70% full, the number of probes (places looked at in the table) is typically only 2 or 3- Sophisticated mathematical analysis is required to prove that the expected cost of inserting into a hash table, or looking something up in the hash table, is O(1)- Even if the table is nearly full (leading to occasional long searches), efficiency is usually still quite high- load factor = number-of-elements / TABLESIZE - Should not exceed 2/3. - With chaining, the concern is the average size of a chain. ## Deletions <a name="hash-deletions"></a>
  > __solution:__ Use lazy deletions  
  
-## Cuckoo Hashing
+## Cuckoo Hashing <a name="hash-cuckoo"></a>
 >Cuckoo hashing  worst-case constant lookup time. >The name derives from the behavior of some species of cuckoo, where the cuckoo chick pushes the other eggs or young out of the nest when it hatches; analogously, inserting a new key into a cuckoo hashing table may push an older key to a different location in the table.- There are two hash functions, one for each table.- If a key can’t go in either location, it tries to move the existing key to its alternative spot in the other table.- When a new key is inserted, the new key is inserted in one of its two possible locations, "kicking out", that is, displacing, any key that might already reside in this location. - This displaced key is then inserted in its alternative location, again kicking out any key that might reside there, until a vacant position is found, or the procedure enters an __infinite loop__. In the latter case, the __hash table__ is rebuilt __in-place__ using new __hash functions__:--# Priority Queue <a name="priority-queue"></a> [Instructor Notes](https://usu.instructure.com/courses/388377/files/58841559/download?wrap=1)> Anything Greedy|Main Idea|Sub idea|Description|
 |---|---|---|
 |Non-Mergable Heaps	|[Binary Heap](#queue-binary-heap)|
