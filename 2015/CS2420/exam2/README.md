@@ -103,7 +103,9 @@ buildHeap(){  for (i=size/2; i>0; i--)     percolateDown(i);}
 
 ### Definition:
 
-- Each node has d children- Still representable by array### Good choices for d:- optimize performance based on # of inserts/removes- power of two for efficiency- fit one set of children in a cache line  (the block of memory that - is transferred to memory cache)- fit one set of children on a memory page/disk block--# Sorting <a name="sorting"></a> [Instructor Notes](https://usu.instructure.com/courses/388377/files/58888554/download?wrap=1)
+- Each node has d children- Still representable by array### Good choices for d:- optimize performance based on # of inserts/removes- power of two for efficiency- fit one set of children in a cache line  (the block of memory that - is transferred to memory cache)- fit one set of children on a memory page/disk block### Merging
+
+--# Sorting <a name="sorting"></a> [Instructor Notes](https://usu.instructure.com/courses/388377/files/58888554/download?wrap=1)
   
 |Main Idea|Sub Idea|Complexity|Adaptive|Stable|in-Place|
 |---|---|---|---|---|---|
