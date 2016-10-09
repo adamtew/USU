@@ -14,7 +14,7 @@
 |Fall|[**CS2420**](https://github.com/AdamTew/USU/tree/master/2015/CS2420)| *(CS III) data structures and algorithm analysis* | C++ 
 ||[**CS3000**](https://github.com/AdamTew/USU/tree/master/2015/CS3000)  	| *Undergraduate seminar* | Unix, Vim, LaTex
 ||[**CS2612**](https://github.com/AdamTew/USU/tree/master/2015/CS2612)  	| *Web Development* | Node.js, HTML, CSS, git
-|2016/Spring|[**CS3810**](https://github.com/AdamTew/USU/tree/master/2016/CS3810)|*Computer Systems Organization and Architecture*| MIPS, x86
+|2016/Spring|[**CS3810**](https://github.com/adamtew/USU/tree/master/2016/cs3810)|*Computer Systems Organization and Architecture*| MIPS, x86
 |Fall|[**CS3100**](https://github.com/AdamTew/USU/tree/master/2016/CS3100)|*Operating Systems and Concurrency*| C++
 ||[**CS3450**](https://github.com/AdamTew/USU/tree/master/2016/CS3450)|*Introduction to Software Engineering*| C++
 ||[**CS4700**](https://github.com/AdamTew/USU/tree/master/2016/CS4700)|*Programming Languages*| 
