@@ -1,3 +1,106 @@
+Reading code.  Writing code. Determining complexity of algorithms.  
+
+-   
+	- Primary clustering, secondary clustering, non-clustering  
+	- 
+	- Linear probing, quadratic probing, double hashing, separate chaining
+        Rehashing
+- .   
+	- Heap as an array
+	- Leftist heap
+	- Skew heap
+	- Binomial queue
+-   
+	- Stability, adaptive, complexity
+	- Bubble, insertion, selection, shell
+	- Quicksort, mergesort, heap sort
+	- Effect of data: few unique, almost in order
+	- Bucket sort
+	- TImsort: merge low/high, natural mergesort, insertion sort to increase minlength, galloping, merging similar sized adjacent runs
+- 
+	- Union by size, union by weight
+	- Path compression
+- 
+	- Directed, undirected, bipartite, weighted, connected/unconnected
+	- Depth first traversal, breadth first traversal, visited flag
+	- Adjacency matrix, adjacency list
+
+|Topic|Sub Topic|
+|---|---|
+|[Hashing](/AdamTew/CS2420-Exam2/wiki/hashing)	|Primary clustering, secondary clustering, non-clustering|
+|			|[Characteristics of a good hash function](/AdamTew/CS2420-Exam2/wiki/hashing#good-properties)|
+|			|Linear probing, quadratic probing, double hashing, separate chaining
+|			|Rehashing
+|[Priority Queues](/AdamTew/CS2420-Exam2/wiki/priority-queue) __Algorithms for implementing__	|Heap as an array
+|					|Leftist heap
+|					|Skew heap
+|					|Binomial queue
+|[Sorting](/AdamTew/CS2420-Exam2/wiki/sorting)	|Stability, adaptive, complexity
+|			|Bubble, insertion, selection, shell
+|			|Quicksort, mergesort, heap sort
+|			|Effect of data: few unique, almost in order
+|			|Bucket sort
+|			|TImsort: merge low/high, natural mergesort, insertion sort to increase minlength, galloping, merging similar sized adjacent runs
+|[Union Find](/AdamTew/CS2420-Exam2/wiki/union-find)  	|Union by size, union by weight
+|				|Path compression
+|[Graphs](/AdamTew/CS2420-Exam2/wiki/graphs)	|Directed, undirected, bipartite, weighted, connected/unconnected
+|			|Depth first traversal, breadth first traversal, visited flag
+|			|Adjacency matrix, adjacency list
+
+# Topics
+
+Reading code.  Writing code. Determining complexity of algorithms.  
+
+- Hashing  
+	- Primary clustering, secondary clustering, non-clustering  
+	- Characteristics of a good hash function
+	- Linear probing, quadratic probing, double hashing, separate chaining
+        Rehashing
+- Priority Queues. Algorithms for implementing
+	- Heap as an array
+	- Leftist heap
+	- Skew heap
+	- Binomial queue
+- Sorting
+	- Stability, adaptive, complexity
+	- Bubble, insertion, selection, shell
+	- Quicksort, mergesort, heap sort
+	- Effect of data: few unique, almost in order
+	- Bucket sort
+	- TImsort: merge low/high, natural mergesort, insertion sort to increase minlength, galloping, merging similar sized adjacent runs
+- Union Find
+	- Union by size, union by weight
+	- Path compression
+- Graphs (introduction only)
+	- Directed, undirected, bipartite, weighted, connected/unconnected
+	- Depth first traversal, breadth first traversal, visited flag
+	- Adjacency matrix, adjacency list
+
+-
+
+|Topic|Sub Topic|
+|---|---|
+|Hashing	|Primary clustering, secondary clustering, non-clustering|
+|			|Characteristics of a good hash function|
+|			|Linear probing, quadratic probing, double hashing, separate chaining
+|			|Rehashing
+|Priority Queues	|Heap as an array
+|					|Leftist heap
+|					|Skew heap
+|					|Binomial queue
+|Sorting	|Stability, adaptive, complexity
+|			|Bubble, insertion, selection, shell
+|			|Quicksort, mergesort, heap sort
+|			|Effect of data: few unique, almost in order
+|			|Bucket sort
+|			|TImsort: merge low/high, natural mergesort, insertion sort to increase minlength, galloping, merging similar sized adjacent runs
+|Union Find	|Union by size, union by weight
+|				|Path compression
+|Graphs	|Directed, undirected, bipartite, weighted, connected/unconnected
+|			|Depth first traversal, breadth first traversal, visited flag
+|			|Adjacency matrix, adjacency list
+
+
 # Exam II
 
 |Topics|Sub Topics|
@@ -10,6 +113,8 @@
 |						|[Cuckoo](#hash-cuckoo)|
 |[Priority Queue](#priority-queue)
 |[Sorting](#sorting)|
+|[Union Find](#union-find)|
+|[Graphing](#graphing)|
 
 # Hashing <a name="hashing"></a> [Instructor Notes](https://usu.instructure.com/courses/388377/files/58790856/download?wrap=1)
 
@@ -230,7 +335,72 @@ Node * SkewHeapMerge (Node * t1, Node * t2)   // t1 and t2 are merged, a new tre
 
 > There do exist linear time in-place merge algorithms for the last step of the algorithm, but they are both expensive and complex. The complexity is justified for applications such as external sorting when Θ(n) extra space is not available. 
 
+## Union Find <a name="union-find"></a>
 
+> Union Find is an algorithm which uses a disjoint-set data structure to solve the following problem: Say we have some number of items.
+
+## Graphing <a name="graphing"></a>
+
+- nodes
+- relationships (Arcs/edges)
+- child is called successor
+- things that are touching are called __adjacent__
+
+
+- parent is called a predecessor
+
+__Examples:__   
+
+
+|Example|Node|Arc(Relationship)|
+|---|---|---|
+|Ages|People|
+|Digital Logic|
+|Starting Salary|Major|Salary|
+|Networking|
+|Candy Bars|
+|Test to see|
+|Social Network|People|Relationship to person|
+
+> This class is called a "Bipartite" graph
+
+Annotative graph
+Example:
+Starting Salary
+Node: 	Student
+Arc:	Salary
+
+### Stored
+
+Array or linked lists or adjacency matrix
+
+__Adjacency Matrix__
+
+```
+ 0 1 2 3 4 5 
+_____________
+0|_|x|_|_|_|_|
+1|_|_|_|_|_|_|
+2|_|_|_|x|_|_|
+3|_|_|_|_|_|_|
+4|_|x|_|_|_|_|
+5|_|_|_|_|_|_|
+```
+$$
+\begin{array}{c|lcr}
+n & \text{Left} & \text{Center} & \text{Right} \\
+\hline
+1 & 0.24 & 1 & 125 \\
+2 & -1 & 189 & -8 \\
+3 & -20 & 2000 & 1+10i
+\end{array}
+$$
+
+- successor -> look at the row
+- Predecessor -> look at the column
+- Intense on the memory
+
+Time Space Tradeoff
 
 ## Appendix
 
