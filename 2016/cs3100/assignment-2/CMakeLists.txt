@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 2.8.9)
+project (cs3100_assignment_1)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -lpthread")
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(main main.cpp)
+#target_compile_features(cs3100_assignment_1 PRIVATE CXX_RANGE_FOR)
+#target_compile_features(cs3100_assignment_1 PRIVATE CXX_RANGE_FOR)
+#target_compile_features(cs3100_assignment_1 PRIVATE CXX_AUTO_TYPE)
+# target_link_libraries (main pthread)
+
+
+#set(THREADS_PREFER_PTHREAD_FLAG ON)
+#set(CMAKE_THREAD_PREFER_PTHREAD TRUE)
+#find_package (Threads REQUIRED)
+#set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -lpthread")
+#set(CMAKE_CXX_FLAGS "-lpthread")
+# target_link_libraries (main '${CMAKE_THREAD_LIBS_INIT}')
+
