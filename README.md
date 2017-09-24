@@ -19,3 +19,8 @@
 ||[**CS3450**](https://github.com/adamtew/USU/tree/master/2016/cs3450)|*Introduction to Software Engineering*| C++
 ||[**CS4700**](https://github.com/adamtew/USU/tree/master/2016/cs4700)|*Programming Languages*| 
 ||[**MATH3310**](https://github.com/adamtew/USU/tree/master/2016/math3310)|*Discrete Mathematics*| The Maths
+|2017/Spring|[**CS5890**](https://github.com/adamtew/USU/tree/master/2017/cs5890)|*rapid Problem Solving*|Python 
+||[**CS5050**](https://github.com/adamtew/USU/tree/master/2017/cs5050)|*Advanced Algorithms*|Python 
+|Fall|[**CS5700**](https://github.com/adamtew/USU/tree/master/2016/cs5700)|*Object Oriented Programming*| C++
+||[**CS5460**](https://github.com/adamtew/USU/tree/master/2017/cs5460)|*Computer Security*|Bash 
+||[**CS5665**](https://github.com/adamtew/USU/tree/master/2017/cs5665)|*Data Science*|Python 
